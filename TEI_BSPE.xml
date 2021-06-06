@@ -1,0 +1,1055 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="out/TEI_BSPE_ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="out/TEI_BSPE_ODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+
+      <fileDesc>
+
+         <titleStmt>
+            <title xml:id="BSPE-1908-508">Sur le traitement de la Trypanosomiase humaine</title>
+            <author key="#G.Martin">Gustave Martin</author>
+            <author key="#A.Leboeuf">Alexandre Leboeuf</author>
+            <respStmt>
+               <resp>Encodage d'une communication parue dans le Bulletin de la Société de Pathologies
+                  exotiques dans le cadre d'un rendu de XML-TEI à l'École nationale des
+                  chartes</resp>
+               <persName>
+                  <forename>Lily</forename>
+                  <surname>Grumbach</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+
+         <publicationStmt>
+            <publisher>Masson et Cie, éditeurs <note>Libraires de l'Académie de médecine</note>
+            </publisher>
+            <date when="1908">1908</date>
+            <address>
+               <street>120,Boulevard Saint-Germain</street>
+               <postCode>75006</postCode>
+               <settlement>Paris</settlement>
+            </address>
+            <distributor>Bibliothèque interuniversitaire de Santé</distributor>
+            <address>
+               <street>12, rue de l'Ecole de Médecine </street>
+               <postCode>75006</postCode>
+               <settlement>Paris</settlement>
+            </address>
+            <availability status="free">
+               <p> L'ensemble des numéros du Bulletin de la Société de Pathologie Exotique sont
+                  publiés depuis 2008 sur le site de la Bibliothèque interuniversitarie de médecine
+                     <ref type="uriref"
+                     target="https://www.biusante.parisdescartes.fr/histoire/medica/resultats/index.php?fille=ocotemerebspe"
+                  /> Ainsi que sur Internet Archive depuis 2017 <ref type="uriref"
+                     target="https://archive.org/search.php?query=Soci%C3%A9t%C3%A9%20de%20pathologie%20exotique"
+                  />
+               </p>
+               <p> Sources utilisables selon les Creative CommonsLicense <ref type="uriref"
+                     target="http://creativecommons.org/licenses/by-nc-sa/3.0/">Attribution
+                     Non-commercial Share-alike</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+
+         <sourceDesc>
+            <p source="https://archive.org/stream/BIUSante_bspex1908/BIUSante_bspex1908_djvu.txt">
+               Texte extrait de l'océrisation disponible sur Internet Archive puis nettoyé
+               manuellement. Le taux de reconnaissance du document n'est pas indiqué.</p>
+         </sourceDesc>
+
+      </fileDesc>
+
+
+      <encodingDesc>
+         <!--  Méthode d'encodage du texte-->
+         <projectDesc>
+            <p> Encodage des entités nommées de la communication "Sur le traitement de la
+               Trypanosomiase humaine" présenté à la 8e séance (octobre) de l'année 1908 de la
+               Société de pathologie exotique. Réalisé dans le cadre d'un rendu de XML/TEI de Mme
+               Ariane Pinche, ce projet a pour ambition de proposer un encodage pouvant servir à une
+               édition digitale de la revue afin d'en proposer une lecture transversale. Les choix
+               réalisés pour ce projet relèvent d'une compréhension profonde du fonctionnement de la
+               revue</p>
+         </projectDesc>
+         <editorialDecl>
+            <p> La communication a été encodée de manière à transcrire son inscription dans le
+               corpus général mais aussi à rendre compte de la structure propre à chaque
+               contribution. </p>
+            <p>Les références bibliographiques indiquées en note de bas de page dans la sources ont
+               été intégrées au corps de l'article par une balise <gi>ref</gi> avec l'attribut
+                  <att>type</att>="footnote" et.</p>
+         </editorialDecl>
+         <refsDecl>
+            <p>Structure du texte</p>
+            <p> En travaillant à l'échelle de l'article, nous avons structuré l'encodage de manière
+               à d'une part situer l'article dans l'ensemble des publications du Bulletin de la
+               Société de pathologie exotique et d'autre part mettre en avant la structure même de
+               chaque article. </p>
+            <p> Insertion de l'article dans le corpus général et dans ma base de données: <list>
+                  <item><gi>div1</gi> : Revue et année de publication par l'attribut
+                        <att>n</att></item>
+                  <item><gi>div2</gi> : volume de l'année au sein duquel a été publié
+                     la contribution étudiée.</item>
+                  <item><gi>div3</gi> permet, grâce à son attribut <att>BSPE-id</att> de lier
+                     l'article à ma base de données personnelle au sein de laquelle chaque
+                     contribution est référencée par un id sur modèle
+                     "[abbr.revue]-[annee]-[pagededébut]". A partir de 1923, le BSPE publie aussi
+                     les mémoires et communications de sociétés scientifiques de colonies françaises
+                     : <list>
+                        <item>La Société médico-chirurgicale de l'Ouest-Africain (à partir de
+                           1923)</item>
+                        <item>La Société des Sciences médicales de Madagascar (à partir de
+                           1928)</item>
+                     </list> C'est pourquoi <gi>div3</gi> comporte un attribut
+                        <att>part</att> pour référencer la société savante dans le cadre de laquelle
+                     a été réalisé la communication ou le mémoire. Les valeurs associées sont les
+                     accronymes de chacune des société :"SPE", "SMCOA","SSMM" </item>
+               </list>
+            </p>
+         </refsDecl>
+      </encodingDesc>
+
+      <profileDesc>
+
+         <abstract>
+            <p> Publiée dans le 8e numéro du BSPE, la communication a été réalisée dans le cadre de
+               la Mission sur la Maladie du Sommeil au Congo français qui s'est tenue entre 1906 et
+               1908. Le même numéro du BSPE a publié plusieurs articles </p>
+         </abstract>
+
+         <creation>
+            <!-- Lieu où se tiennent les séances de la SPE -->
+            <placeName>
+               <orgName>Société de Pathologie exotique</orgName>
+               <address>
+                  <country>France</country>
+                  <settlement type="city">Paris</settlement>
+                  <street>
+                     <num>25-28</num> rue Dutot </street>
+                  <postCode>75015</postCode>
+               </address>
+            </placeName>
+            <!-- Informations relatives à la séance précise -->
+            <date when="1908-10-14">14 Octobre 1908</date>
+            <persName role="Secrétaire Général" ref="#E.Roux"/>
+            <persName role="Secrétaire de la séance" ref="#Ch.Dopter"/>
+            <!-- Nom des personnes étant intervenues pour la production de la communication telle qu'elle paraît dans le Bulletin de la Société de Pathologie Exotique -->
+            <persName role="Auteur" key="#G.Martin"/>
+            <persName role="Auteur" key="#A.Leboeuf"/>
+            <persName role="Rapporteur" key="#F.Mesnil"/>
+            <persName role="Discutant" key="#F.Mesnil"/>
+            <!-- Cadre dans lequel a été produit la communication lue à la SPE -->
+            <orgName ref="#MissionMaladieSommeil">Mission d'étude de la Maladie du Sommeil au Congo
+               français</orgName>
+         </creation>
+
+         <langUsage>
+            <language ident="fr"/>
+         </langUsage>
+
+         <particDesc>
+
+            <listPerson type="scientifiques">
+               <!-- Liste des communiquants et personnes mentionnées dans le texte.Ordonnés par ordre alphabétique -->
+               <person xml:id="A.Broden" sex="M">
+                  <persName>Alphonse Broden</persName>
+                  <birth when="1875"/>
+                  <death when="1929"/>
+                  <nationality>Belge</nationality>
+
+                  <occupation>
+                     <list type="affiliation-SPE">
+                        <item><affiliation key="#SPE" role="Membre correspondant" period="1908-1920"
+                           /></item>
+                        <item><affiliation key="#SPE" role="Membre associé" period="1921-1929"
+                           /></item>
+                        <item>Médaille d'or de la <orgName ref="#SPE">SPE</orgName></item>
+                     </list>
+                     <list type="carriere">
+                        <item><affiliation period="1908-1910">Directeur du <orgName>laboratoire
+                                 bactériologique de <settlement type="city"
+                                    >Léopoldville</settlement>, <settlement type="colony">Congo
+                                    belge</settlement></orgName></affiliation></item>
+
+                        <item><affiliation period="1911-1929">Directeur de l'<orgName>Ecole de
+                                 médecine tropicale de <settlement type="city"
+                                    >Bruxelles</settlement></orgName></affiliation>
+                        </item>
+                        <item><affiliation>Fondateur de la <orgName>Société Belge de Médecine
+                                 Tropicale</orgName></affiliation>. </item>
+                     </list>
+                     <biblStruct>
+                        <analytic>
+                           <title>Nécrologie. Décès de M. Broden</title>
+                        </analytic>
+                        <monogr>
+                           <title type="revue" ref="#BSPE">Bulletin de la Société de pathologie
+                              exotique</title>
+                           <imprint>
+                              <publisher>Masson Cie</publisher>
+                              <date>1930</date>
+                              <biblScope unit="page">2</biblScope>
+                           </imprint>
+                        </monogr>
+                     </biblStruct>
+                     <ref type="uriref" target="http://lib.itg.be/open/ASBMT/1937/1937asbm0141.pdf"/>
+                     <ref type="viafref" target="298368948"/>
+                  </occupation>
+               </person>
+
+               <person xml:id="Ch.Dopter" sex="M">
+                  <persName>Charles Dopler</persName>
+                  <birth when="1873"/>
+                  <death when="1950"/>
+                  <nationality>Français</nationality>
+
+                  <occupation>
+                     <affiliation type="CorpsDeMetier" ref="AT-Med"/>
+                     <list type="affiliation-SPE">
+                        <item><affiliation ref="#SPE" role="Secrétaire de séance" period="1908-1911"/></item>
+                        <item><affiliation ref="#SPE" role="Membre Titulaire" period="1911-1950"/></item>
+                     </list> 
+                     
+                     <list type="autres_societes">
+                        <item><affiliation from="1918">Membre de l'<orgName>Académie nationale de Médecine</orgName></affiliation></item>
+                        <item><affiliation from="1937">Membre du Conseil d'administration de l'<orgName ref="#IP">Institut Pasteur</orgName></affiliation></item>
+                     </list> 
+                     <list type="carriere">
+                        <item><affiliation period="1904-1912">Directeur du <orgName>laboratoire de bactériologie du Val-de-Grâce</orgName></affiliation></item>
+                        <item><affiliation period="1913-1914">Titulaire de la Chaire des Maladies et épidémies
+                           des Armées à l'<orgName>Ecole d'application du Service de Santé du Val-de-Grâce</orgName></affiliation></item>
+                        <item><affiliation period="1919-1927">Directeur de l'<orgName>Ecole d'Application du Service de Santé de l'Armée du Val-de-Grâce</orgName></affiliation></item>
+                        <item><affiliation period="1927-1929">Directeur du <orgName>Service de Santé de l'armée d'occupation en Allemagne</orgName></affiliation></item>
+                        <item><affiliation period="1929-1935">Directeur du <orgName>Service de Santé au Ministère de la Guerre</orgName></affiliation></item>
+                        
+                     </list>
+                     <ref type="viafref" target="49621785"/>
+                  </occupation>
+               </person>
+
+               <person xml:id="J.D.E.Holmes" sex="M">
+
+                  <persName>John Dalrymple Edgar Holmes</persName>
+                  <birth when="1867"/>
+                  <death when="1915"/>
+                  <nationality>Anglais</nationality>
+
+                  <occupation>
+                     <list type="carriere">
+                        <item><affiliation period="1905-1907">Travaille à l'<orgName ref="#IP"
+                                 >Institut Pasteur</orgName> et à l'<orgName>Ecole de médecine de
+                                 Paris</orgName></affiliation></item>
+                        <item><affiliation from="1907">Professeur de sciences sanitaires au
+                                 <orgName>Punjab Veterinary College de
+                                    <settlement>Lahore</settlement></orgName></affiliation></item>
+                        <item><affiliation from="1908">Bactériologiste impérial en <settlement
+                                 type="colony">Inde</settlement></affiliation></item>
+
+                        <item>Lieutenant-Colonel du <orgName>Indian Civil Veterinary
+                              Department</orgName>(1914)</item>
+                     </list>
+                     <list type="autres_societes">
+                        <item/>
+                        <item><affiliation from="1913">Companion of the Order of the Indian
+                              Empire</affiliation></item>
+                     </list>
+                  </occupation>
+                  <note>J.D.E. Holmes n'a jamais fait partie de la SPE.Nous avons donc intégré
+                     uniquement des informations recueillies en ligne <biblStruct>
+                        <analytic>
+                           <author>Matthews, Peter K.</author>
+                           <author>Warwick, Colin</author>
+                           <author>Macdonald, Alastair A.</author>
+                           <title>The war memorial and Roll-of-Honour of the Royal (Dick) school of
+                              veterinary studies</title>
+                        </analytic>
+                        <monogr>
+                           <title> Veterinary History</title>
+                           <imprint>
+                              <date when="2016"/>
+                              <biblScope unit="volume" n="18"/>
+                              <biblScope unit="issue" n="2"/>
+                              <biblScope unit="page">134-135</biblScope>
+                           </imprint>
+                        </monogr>
+                        <ref type="uriref"
+                           target="https://era.ed.ac.uk/bitstream/handle/1842/14209/JVHS-war-memorial.pdf"
+                        />
+                     </biblStruct>
+                  </note>
+               </person>
+
+               <person xml:id="A.Kermorgant" sex="M">
+                  <persName>Alexandre Kermorgant </persName>
+                  <birth when="1843"/>
+                  <death when="1920"/>
+                  <nationality>Français</nationality>
+
+                  <occupation>
+                     <affiliation type="CorpsDeMetier" ref="#M-Med #TC-Med"/>
+                     <list type="affiliation-SPE">
+                        <item><affiliation ref="#SPE" role="Vice-Président" period="1908-1909"
+                           /></item>
+                        <item><affiliation ref="#SPE" role="Membre Honoraire" period="1910-1920"
+                           /></item>
+                     </list>
+                     <list type="carriere">
+                        <item>De 1863 à 1889, mutltiples campagnes militaires de la Marine dont cinq
+                           en guerre</item>
+                        <item><affiliation>Président du <orgName>Conseil supérieur de la Santé des
+                                 colonies</orgName></affiliation></item>
+                        <item>
+                           <affiliation period="1898-1908">Fondateur et directeur des
+                                 <orgName>Annales d'Hygiène et de médecine
+                              coloniales</orgName></affiliation></item>
+                        <item><affiliation period="1906-1920">Inspecteur général du Service de Santé
+                              des colonies.</affiliation></item>
+
+                     </list>
+                     <list type="autres_societes">
+                        <item/>
+                        <item>
+                           <affiliation period="1902-1920">Associé libre de l'<orgName>Académie
+                                 nationale de Médecine</orgName></affiliation></item>
+                     </list>
+                     <biblStruct>
+                        <monogr>
+                           <author>Paul Gouzien</author>
+                           <title>Annales de médecine et de pharmacie coloniales</title>
+                           <imprint>
+                              <date>1921</date>
+                              <publisher>Imprimerie nationale</publisher>
+                              <pubPlace>Paris</pubPlace>
+                              <biblScope unit="page">130-133</biblScope>
+                           </imprint>
+                        </monogr>
+                     </biblStruct>
+                     <ref type="viafref" target="12299104"/>
+                  </occupation>
+               </person>
+
+               <person xml:id="A.Lafont" sex="M">
+                  <persName>Alexandre Lafont</persName>
+                  <birth when="1869"/>
+                  <death when="1959"/>
+                  <nationality>Français</nationality>
+
+                  <affiliation type="CorpsDeMetier" ref="#TC-Med"/>
+                  <affiliation key="#SPE" role="Membre Correspondant" period="1908-1923"/>
+                  <occupation>
+                     <list type="affiliation-SPE">
+                        <item><affiliation ref="#SPE" role="Membre correspondant" period="1908-"
+                           /></item>
+                     </list>
+                     <list type="carriere">
+                        <item><affiliation to-iso="1912">Directeur du <orgName
+                                 ref="#Labo-bact-Maurice">laboratoire de bactériologie de l'Île
+                                 Maurice</orgName></affiliation></item>
+                        <item><affiliation period="1913-">Directeur du <orgName>laboratoire de
+                                 l'Hôpital militaire de <settlement type="colony"
+                                    >Dakar,Senegal</settlement></orgName></affiliation></item>
+                        <item><affiliation period="1913-1916">Directeur du <orgName>laboratoire de
+                                    l'<settlement type="colony">AOF</settlement></orgName>
+                              <settlement type="colony">Dakar,
+                           Senegal</settlement></affiliation></item>
+                        <item><affiliation period="1916-1917">Médecin major au 5e régiment
+                              d'infanterie coloniale</affiliation></item>
+                        <item><affiliation period="1917-1919">Médecin chef brancardier de corps à
+                              l'Armée d'Orient</affiliation></item>
+                        <item><affiliation period="1920-192">Directeur de laboratoire à <settlement
+                                 type="colony">Hanoï,Tonkin</settlement></affiliation></item>
+                        <item><affiliation from="1922">Médecin chef à <settlement type="city"
+                                 >Toulon</settlement></affiliation></item>
+                     </list>
+                     <ref type="viafref" target="198995746"/>
+                  </occupation>
+               </person>
+
+               <person xml:id="A.Laveran" sex="M">
+                  <persName>Alphonse Laveran</persName>
+                  <birth when="1845"/>
+                  <death when="1922"/>
+                  <nationality>Français</nationality>
+
+                  <occupation>
+                     <affiliation type="CorpsDeMetier" ref="#AT-Med"/>
+                     <list type="affiliation-SPE">
+                        <item><affiliation key="#SPE" role="Président" period="1908-1920"/></item>
+                        <item><affiliation key="#SPE" role="Président Honoraire" period="1920-1922"
+                           /></item>
+                     </list>
+                     <list type="carriere">
+                        <item><affiliation period="1874-1878">Professeur de maladies et epidémies
+                              des armées à l'<orgName>Ecole du
+                           Val-de-Grâce</orgName></affiliation></item>
+                        <item><affiliation period="1878-1884">Médecins d'hôpitaux militaires en
+                                 <settlement type="colony">Algérie</settlement></affiliation></item>
+                        <item><affiliation period="1884-1894">Professeur d'hygiène militaire à
+                                 l'<orgName>Ecole du Val-de-Grâce</orgName></affiliation></item>
+                        <item><affiliation period="1906-1908">En charge de l'établissement des
+                              instructions médicales et zoologiques pour la <orgName
+                                 ref="#MissionMaladieSommeil">Mission de la maladie du sommeil au
+                                 Congo français</orgName></affiliation></item>
+                        <item><affiliation from="1915">Directeur honoraire de l'<orgName ref="#IP"
+                                 >Institut Pasteur</orgName></affiliation></item>
+                     </list>
+                     <list type="autres_societes">
+                        <item><affiliation>Membre de la <orgName>Royal
+                              Society</orgName></affiliation></item>
+                        <item><affiliation from="1901">Membre de l'<orgName>Académie des
+                                 sciences</orgName></affiliation></item>
+                        <item><affiliation from="1893">Membre de l'<orgName>Académie nationale de
+                                 médecine</orgName></affiliation></item>
+                     </list>
+                     <list type="distinctions">
+                        <item><affiliation>Prix Nobel de physiologie ou médecine
+                              (1907)</affiliation></item>
+                     </list>
+                     <ref type="uriref" target="https://webext.pasteur.fr/archives/lav0.html"/>
+                     <ref type="viafref" target="120708696"/>
+                  </occupation>
+               </person>
+
+               <person xml:id="A.Leboeuf" sex="M">
+                  <persName>Alexandre LEBŒUF</persName>
+                  <birth when="1879"/>
+                  <death when="1922"/>
+                  <nationality>Français</nationality>
+
+                  <occupation>
+                     <affiliation type="CorpsDeMetier" ref="#TC-Med"/>
+                     <list type="affiliation-SPE">
+                        <item><affiliation key="#SPE" role="Correspondant" period="1908-1936"
+                           /></item>
+                     </list>
+                     <list>
+                        <item><affiliation period="1904-1906">microbiologiste à l'<orgName ref="#IP"
+                                 >Institut Pasteur de Brazzaville</orgName>,<settlement
+                                 type="colony">Congo français</settlement></affiliation></item>
+                        <item><affiliation period="1906-1908">En charge de la <orgName
+                                 ref="#MissionMaladieSommeil">Mission de la maladie du sommeil au
+                                    <settlement type="colony">Congo
+                              français</settlement></orgName></affiliation></item>
+                        <item><affiliation period="1908-1910">Détaché à l'<orgName ref="#IP"
+                                 >Institut Pasteur</orgName></affiliation></item>
+                        <item><affiliation period="1910-1914">Mission de la lèpre. Fondateur et
+                              directeur de l'<orgName>Institut de microbiologie de Nouméa</orgName>,
+                              Nouvelle-Calédonie</affiliation></item>
+                        <item><affiliation period="1914-1915">Médecin du 21e régiment des Troupes
+                              coloniales</affiliation></item>
+                        <item><affiliation period="1915-1916">Directeur hôpital de
+                              Bar-le-Duc</affiliation>
+                        </item>
+                        <item><affiliation period="1916-1919">Directeyr de l'<orgName ref="#IP"
+                                 >Institut Pasteur de Brazzaville</orgName></affiliation></item>
+                        <item><affiliation period="1921">Chef du service de santé du
+                              Gabon</affiliation></item>
+                        <item><affiliation period="1922">Chaire de clinique des maladies tropicales
+                              de l'Ecole du Pharo</affiliation></item>
+                     </list>
+                  </occupation>
+               </person>
+
+               <person xml:id="G.Martin" sex="M">
+                  <persName>Gustave Martin</persName>
+                  <birth when="1872"/>
+                  <death when="1936"/>
+                  <nationality>Français</nationality>
+
+                  <occupation>
+                     <affiliation type="CorpsDeMetier" ref="#TC-Med"/>
+                     <list type="affiliation-SPE">
+                        <item><affiliation key="#SPE" role="Membre Correspondant" period="1907-1919"
+                           /></item>
+                        <item><affiliation key="#SPE" role="Membre associé" period="1920-1928"
+                           /></item>
+                        <item><affiliation key="#SPE" role="Vice-President" period="1928-1929"
+                           /></item>
+                        <item><affiliation key="#SPE" role="Membre titulaire honoraire"
+                              period="1929-1936"/></item>
+                     </list>
+                     <list type="carriere">
+                        <item><affiliation period="1905-1906"><settlement type="colony">Guinée
+                                 française</settlement></affiliation></item>
+                        <item><affiliation period="1906-1908">En charge de la <orgName
+                                 ref="#MissionMaladieSommeil">Mission de la maladie du sommeil au
+                                    <settlement type="colony">Congo
+                              français</settlement></orgName></affiliation></item>
+                        <item><affiliation period="1908-1912">Directeur de l'<orgName ref="#IP"
+                                 >Institut Pasteur de <settlement type="colony"
+                                    >Brazzaville</settlement></orgName></affiliation></item>
+                        <item><affiliation period="1912-1916">Chaire de Psychiatrie à
+                                 l'<orgName>Ecole d’application du service de santé des
+                                 colonies</orgName></affiliation></item>
+                        <item><affiliation period="1916-1918">Directeur du service de santé du
+                                 <settlement type="colony"
+                           >Cameroun</settlement></affiliation></item>
+                        <item><affiliation period="1919-1936">Enseigne l'hygiène à l’Ecole Centrale
+                              (Paris) et est membre du Commité d'hygiène de la
+                           SDN</affiliation></item>
+                     </list>
+                     <ref type="uriref" target="http://aaap13.fr/asso/ssa/dm/MARTIN.pdf"/>
+                     <ref type="uriref" target="https://webext.pasteur.fr/archives/f-bio.html"/>
+                  </occupation>
+               </person>
+
+               <person xml:id="F.Mesnil" sex="M">
+
+                  <persName>Félix Mesnil</persName>
+                  <birth when="1868"/>
+                  <death when="1938"/>
+                  <nationality>Français</nationality>
+
+                  <occupation>
+                     <list type="affiliation-SPE">
+                        <item><affiliation key="#SPE" role="Secrétaire général" period="1908-1917"
+                           /></item>
+                        <item><affiliation key="#SPE" role="Président" period="1924-1928"/></item>
+                        <item><affiliation key="#SPE" role="Membre Titulaire Honoraire"
+                              period="1929-1938"/></item>
+                     </list>
+                     <list type="carriere">
+                        <item><affiliation>Institut Pasteur</affiliation></item>
+                        <item><affiliation from="1907">Chef de service à l'<orgName ref="#IP"
+                                 >Institut Pasteur</orgName></affiliation></item>
+
+                        <item><affiliation period="1907-1938"> Chef du <orgName>service de
+                                 microbiologie coloniale</orgName></affiliation></item>
+                        <item><affiliation from="1925">Chef de la délégation française à la
+                                 <orgName>conférence internationale sur la maladie du
+                                 sommeil</orgName></affiliation></item>
+                        <item><affiliation from="1931">Président de la <orgName
+                                 ref="#MissionMaladieSommeil">Commission de la maladie du
+                                 sommeil</orgName>
+                           </affiliation></item>
+                     </list>
+                     <list type="autres_societes">
+                        <item><affiliation>Membre libre de l'<orgName>Académie de
+                              médecine</orgName></affiliation></item>
+                        <item><affiliation period="1906-1908">Membre de la <orgName>Commission
+                                 française de la maladie du sommeil</orgName></affiliation></item>
+                     </list>
+                     <ref type="uriref"
+                        target="https://rhpst.huma-num.fr/items/show/667
+                        https://data.bnf.fr/fr/10281415/felix_mesnil/"/>
+                     <ref type="uriref" target="https://webext.pasteur.fr/archives/f-bio.html"/>
+                     <ref type="viafref" target="14759026"/>
+                  </occupation>
+               </person>
+
+               <person xml:id="J.Rodhain" sex="M">
+                  <persName>Jérôme Rodhain</persName>
+                  <birth when="1876"/>
+                  <death when="1956"/>
+                  <nationality>Belge</nationality>
+
+                  <occupation>
+                     <list type="affiliation-SPE">
+                        <item><affiliation key="#SPE" role="Membre correspondant" period="1908-1956"
+                           /></item>
+                        <item><affiliation key="#SPE" role="Membre associé" period="1908-1956"
+                           /></item>
+                     </list>
+                     <list type="carriere">
+                        <item><affiliation period="1907-1911">Directeur de l'<orgName>Hôpital des
+                                 noirs de Léopoldville</orgName>, <settlement type="colony">Congo
+                                 Belge</settlement></affiliation></item>
+                        <item><affiliation period="1912-19">Chef de la <orgName>Mission scientifique
+                                 du Katanga</orgName>,à Sankisia, <settlement type="colony">Congo
+                                 Belge</settlement></affiliation></item>
+                        <item><affiliation from="1925">Professeur d'hygiène tropicale, médecine
+                              usuelle et biologie à l'<orgName>Université de <settlement
+                                    type="metropole">Gang</settlement></orgName> et
+                                 l'<orgName>Université coloniale d'<settlement type="metropole"
+                                    >Anvers</settlement></orgName></affiliation></item>
+                     </list>
+                     <list type="autres_societes">
+                        <item><affiliation from="1929">Membre de l'<orgName>Académie royale de
+                                 médecine de Belgique</orgName></affiliation></item>
+                        <item><affiliation>Membre de la <orgName>Société Belge de Médecine
+                                 tropicale</orgName></affiliation></item>
+                        <item><affiliation>Membre de la <orgName>Royal
+                              Society</orgName></affiliation></item>
+                        <item><affiliation>Membre de l'<orgName>Académie des Sciences Coloniales de
+                                 Paris</orgName></affiliation></item>
+                        <item><affiliation>Membre de la<orgName>Nederlandsch vereeniging voor
+                                 Tropische geneeskunde d’Amsterdam</orgName></affiliation></item>
+                        <item><affiliation>Membre de l'<orgName>American Society of Tropical
+                                 Medicine</orgName></affiliation></item>
+
+                     </list>
+                     <ref type="uriref" target="http://www.armb.be/index.php?id=4499"/>
+                     <ref type="uriref"
+                        target="http://www.academieoutremer.fr/academiciens/?aId=926"/>
+                     <ref type="viafref" target="281993139"/>
+                  </occupation>
+               </person>
+
+               <person xml:id="A.Thiroux" sex="M">
+                  <persName>André Thiroux</persName>
+                  <birth when="1869"/>
+                  <death when="1960"/>
+                  <nationality>Français</nationality>
+
+                  <occupation>
+                     <affiliation type="CorpsDeMetier" ref="#M-Med #TC-Med"/>
+                     <list type="affiliation-SPE">
+                        <item><affiliation key="#SPE" role="Membre associé" period="1908-1932"/>
+                        </item>
+                        <item><affiliation key="#SPE" role="Vice-Président" period="1932-1933"
+                           /></item>
+                        <item><affiliation key="#SPE" role="Membre titulaire honoraire"/></item>
+                     </list>
+                     <list type="carriere">
+                        <item><affiliation period="1895-1897">Campagne contre Samory au <settlement
+                                 type="colony">Sénégal</settlement> et au <settlement type="colony"
+                                 >Soudan</settlement></affiliation></item>
+                        <item><affiliation period="1898">Gestion de la peste bubonique à la
+                                 <settlement type="colony">Réunion</settlement></affiliation></item>
+                        <item><affiliation period="1899-1903">Directeur de l'<orgName>Institut
+                                 bactériologique de <settlement type="colony"
+                                    >Tananarive</settlement></orgName></affiliation></item>
+                        <item><affiliation period="1903-1905">Travail au Laboratoire de <persName
+                                 ref="#A.Laveran">Laveran</persName> à l'<orgName ref="#IP">Institut
+                                 Pasteur</orgName></affiliation></item>
+                        <item><affiliation period="1905-1907">Directeur du <orgName>laboratoire de
+                                    <settlement type="colony">Saint-Louis du
+                                 Sénégal</settlement></orgName></affiliation></item>
+                        <item><affiliation period="1907-1910">Au <settlement type="colony"
+                                 >Sénégal</settlement>,Mission d'étude sur la trypanosomiase animale
+                              et humaine</affiliation></item>
+                        <item><affiliation period="1910-1911">Collaborateurde<persName
+                                 ref="#A.Laveran">Laveran</persName> à l'<orgName ref="#IP">Institut
+                                 Pasteur</orgName></affiliation></item>
+                        <item><affiliation period="1911-1913">Professeur de pathologie exotique à l'
+                                 <orgName>Ecole d'application du service de santé des Troupes
+                                 coloniales</orgName></affiliation></item>
+                        <item><affiliation period="1914-1916">médecin chef de la 77e Division du 33e
+                              Régiment des troupes coloniales</affiliation></item>
+                        <item><affiliation period="1917-1920">Directeur du service de santé de Hué
+                              en <settlement type="protectorate"
+                           >Annam</settlement></affiliation></item>
+                        <item><affiliation from="1920"> membre correspondant de l'<orgName>Académie
+                                 de médecine</orgName></affiliation></item>
+                        <item><affiliation period="1920-1926">Directeur de l' <orgName>Ecole
+                                 d'application du service de santé des Troupes
+                              coloniales</orgName></affiliation></item>
+                        <item><affiliation period="1927-1929">Directeur du service de santé de
+                                 <settlement type="colony"
+                           >Madagascar</settlement></affiliation></item>
+                        <item><affiliation period="1929-1940">Travail avec <persName>Emile
+                                 Marchoux</persName> à l'<orgName ref="#IP">Institut
+                                 Pasteur</orgName> sur le traitement de la lèpre du
+                              rat</affiliation></item>
+                     </list>
+                     <ref type="viafref" target="39366680"></ref>
+                  </occupation>
+               </person>
+
+               <person xml:id="E.Roux" sex="M">
+                  <persName>Emile Roux</persName>
+                  <birth when="1853"/>
+                  <death when="1933"/>
+                  <nationality>Français</nationality>
+
+                  <occupation>
+                     <list type="affiliation-SPE">
+                        <item><affiliation key="#SPE" role="Membre honoraire" period="1908-1933"
+                           /></item>
+                     </list>
+                     <list type="carriere">
+                        <item><affiliation period="1879-1890">Directeur-adjoint du
+                                 <orgName>laboratoire de Louis
+                           Pasteur</orgName></affiliation></item>
+                        <item><affiliation period="1888-1895">Chef de service à l'<orgName ref="#IP"
+                                 >Institut Pasteur</orgName></affiliation></item>
+                        <item><affiliation period="1888-1914">Ouvre et dirige à l'<orgName ref="#IP"
+                                 >Institut Pasteur</orgName> du cours de
+                              microbiologie.</affiliation></item>
+                        <item><affiliation period="1896-1906">Sous-directeur de l'<orgName ref="#IP"
+                                 >Institut Pasteur</orgName></affiliation></item>
+                        <item><affiliation period="1904-1933">Directeur de l'<orgName ref="#IP"
+                                 >Institut Pasteur</orgName></affiliation></item>
+                        <item><affiliation period="1914-1918">Crée les laboratoires
+                              d'armée</affiliation></item>
+                     </list>
+                     <list type="autres_societes">
+                        <item><affiliation>Membre de <orgName>Académie nationale de
+                                 médecine</orgName></affiliation></item>
+                        <item><affiliation>Membre de l'<orgName>Académie des
+                              sciences</orgName></affiliation></item>
+                        <item><affiliation>Président d'honneur du <orgName>Congrès de
+                                 chirurgie</orgName></affiliation></item>
+                        <item><affiliation>Membre de l'<orgName>Académie royale de Médecine de
+                                 Belgique</orgName></affiliation></item>
+                        <item><affiliation>Membre de la <orgName>Royal
+                              Society</orgName></affiliation></item>
+                        <item><affiliation>Membre de l'<orgName>Académie royale des sciencesde
+                                 Suède</orgName></affiliation></item>
+                        <item><affiliation>Memnre de l'<orgName>Académie des sciences de
+                                 Russie</orgName></affiliation></item>
+                     </list>
+                     <ref type="uriref"
+                        target="https://www.pasteur.fr/fr/institut-pasteur/notre-histoire/emile-roux-pilier-aventure-pasteur"
+                     />
+                     <ref type="viafref" target="2480764"></ref>
+                  </occupation>
+               </person>
+            </listPerson>
+            <listPerson type="popLocale">
+               <person xml:id="NZali">
+                  <persName>N'Zali</persName>
+               </person>
+            </listPerson>
+
+            <listOrg>
+               <!-- Liste des institutions mentionnées avec leurs publications de référence  -->
+               <org type="Corps_Metier">
+                  <org xml:id="TC-M">
+                     <orgName>Médecin du Service de santé des troupes coloniales</orgName>
+                  </org>
+                  <org xml:id="TC-Ph">
+                     <orgName>Pharmacien du Service de santé des troupes coloniales</orgName>
+                  </org>
+                  <org xml:id="M-M">
+                     <orgName>Médecin du Service de santé de la marine</orgName>
+                  </org>
+                  <org xml:id="M-Ph">
+                     <orgName>Pharmacien du Service de santé de la marine</orgName>
+                  </org>
+                  <org xml:id="AT-M">
+                     <orgName>Médecin du Service de Santé des Armées</orgName>
+                  </org>
+                  <org xml:id="AT-Ph">
+                     <orgName>Pharmacien du Service de Santé des Armées</orgName>
+                  </org>
+               </org>
+               
+               <org type="Societe_Savante" xml:id="SPE">
+                  <orgName>Société de Pathologie Exotique</orgName>
+                  <bibl xml:id="BSPE">
+                     <title>Bulletin de la Société de Pathologie Exotique</title>
+                     <publisher>Masson</publisher>
+                     <ref type="uriref" target="https://www.biusante.parisdescartes.fr/histoire/medica/resultats/index.php?fille=ocotemere=bspe"/>
+                  </bibl>
+               </org>
+
+               <org type="Mission" xml:id="MissionMaladieSommeil">
+                  <orgName>Mission d’Etudes de la Maladie du Sommeil au Congo français</orgName>
+                  <note> de 1906 à 1908, la Mission d’Etudes de la Maladie du Sommeil au <settlement type="colony" ref="#Congo-frcs">Congo
+                     français</settlement>, financée notamment par la <orgName>Société de Géorgraphie</orgName> a
+                     eu pour objectif de dresser une géographie médicale de la maladie du sommeil et
+                     en tirer des recommandations de prophylaxie.</note>
+                  
+                  <bibl>
+                     <title> Rapport de la mission d'études de la maladie du sommeil au Congo
+                        français</title>
+                     <author key="#G.Martin">Gustave Martin</author>
+                     <author key="#A.Leboeuf">Alphonse Leboeuf</author>
+                     <author>Emile Roubaud</author>
+                     <date>1909</date>
+                     <publisher>Masson Cie</publisher>
+                     <ref type="uriref" target="https://gallica.bnf.fr/ark:/12148/bpt6k6541694z"/>
+                  </bibl>
+               </org>
+
+               <org type="Fondation" xml:id="IP">
+                  <orgName>Institut Pasteur</orgName>
+                  <note>
+                     <p>Fondation française privée à but non lucratif,l'Institut Pasteur a été créé
+                        en 1888 par Louis Pasteur. A partir de 1891 sont établis d'autres Instituts
+                        Pasteurs en France (Lille) et à travers les possessions coloniales
+                        françaises.</p>
+                     <p>L'Institut Pasteur compte deux revues de communication : <list>
+                           <item>Les <bibl xml:id="Ann.IP">Annales de l'Institut Pasteur</bibl>
+                              créées en 1887 pour publier les expériences réalisées au sein des
+                              Instituts Pasteur. <ref type="uriref"
+                                 target="https://gallica.bnf.fr/ark:/12148/cb34348753q/date"/>
+                           </item>
+                           <item>Le <bibl xml:id="Bull.Ip">Bulletin de l'Institut Pasteur</bibl>
+                              créé en 1903 pour analyser les travaux de bactériologie, médecine,
+                              biologie et microbiologie publiés dans d'autres revues ou ouvrages.
+                                 <ref type="uriref"
+                                 target="https://data.bnf.fr/ark:/12148/cb343487542"/>
+                           </item>
+                        </list>
+                     </p>
+                  </note>
+               </org>
+
+               <org type="Laboratoire" xml:id="Labo-bact-Maurice">
+                  <orgName>Laboratoire de bactériologie de l’Ile Maurice</orgName>
+                  <settlement type="colony">Ile Maurice</settlement>
+               </org>
+
+               <org type="Fondation" xml:id="BNITM">
+                  <orgName xml:lang="de"> Institut für Schiffs‐und Tropenkrankheiten</orgName>
+                  <orgName xml:lang="fr">Institut de médecine navale et tropicales</orgName>
+                  <orgName xml:lang="de" from="1930">Bernhardt Nocht-Institut für
+                     Tropenmedizin</orgName>
+                  <orgName xml:lang="fr" from="1930">Institut Bernhardt Nocht de médecine
+                     tropicale</orgName>
+                  <settlement type="metropole"> Hambourg <country>Allemagne</country>
+                  </settlement>
+                  <note>Fondé en 1892 par Bernhardt Nocht.Principal Institut de médecine tropicale
+                     d'Allemagne. devient en 1930 le Bernhardt Nocht-Institut für Tropenmedizin
+                     (BNITM)
+                     <ref type="uriref"
+                        target="https://onlinelibrary.wiley.com/doi/full/10.1046/j.1365-3156.2000.00634.x"/>
+                     <ref type="uriref"
+                        target="https://fr.wikipedia.org/wiki/Institut_Bernhard_Nocht_de_m%C3%A9decine_tropicale"/>
+                  </note>
+                  <biblStruct xml:id="Archiv_SchiffsTropHyg">
+                     <monogr>
+                        <title>Archiv für Schiffs- und TropenHygiene</title>
+                     <imprint>
+                        <publisher>Barth</publisher>
+                        <pubPlace>Leipzig</pubPlace>
+                     
+                     </imprint>
+                     </monogr>
+                  </biblStruct>
+               </org>
+               <org type="Revue">
+                  <orgName xml:id="JTropVet">
+                     Journal of tropical veterinary Science
+                     <abbr>Journ. of trop. vet. Sc.</abbr></orgName>
+               </org>
+            </listOrg>
+         </particDesc>
+
+         <settingDesc>
+            <!-- Liste des lieux géographiques mentionnés et contexte scientifique : mission de la maladie du sommeil -->
+            <place>
+               <settlement type="colony" xml:id="Congo-frcs">
+                  <placeName period="1891-1903">Congo français</placeName>
+                  <placeName period="1903-1960">Moyen-Congo</placeName>
+               </settlement>
+               <note> Le Congo français, ou "Moyen Congo" à partir de 1903, est une entité
+                  administrative de l'empire colonial français. Le Congo français est substitué en
+                  1910 par l'Afrique équatoriale française. Le territoire est définit en 1903 comme
+                  "tous les territoires limités par le Gabonet la frontière du Cameroun jusqu'au 7e
+                  degré de latitude jusqu'au point où ce parallèle coupe à l'Est la ligne du bassin
+                  conventionnel, puis par cette ligne elle-même jusqu'à la frontière de l'Etat
+                  indépendant" 
+                  <bibl>
+                     <title>Décret portant organisation du Congo français et dépendances</title>
+                     <date when="1904-01-24"/>, Journal officiel, p.32 <ref type="uriref"
+                        target="https://gallica.bnf.fr/ark:/12148/bpt6k5492365f/f35.item"/>
+                  </bibl>
+                  <bibl>
+                     <author>Vidal de la Blache</author><author>Camena d'Almeida</author>
+                     <title>l'Asie,l'Insulinde,l'Afrique</title>
+                     <publisher>Librairie Armand Colin</publisher>
+                     <date>1906</date>
+                     <pubPlace>Paris</pubPlace>
+                  </bibl>
+               </note>
+               <place>
+                  <placeName xml:id="Kasaï">
+                  <geogName>
+                     <geogFeat>Rivière</geogFeat>
+                     <name>Kasaï</name>
+                  </geogName>
+                  </placeName>
+                  <note>Affluent du fleuve Congo, le Kasaï est une rivière prenant sa source entre
+                        Luando et Lueno dans ce qui est aujourd'hui la République Démocratique du
+                        Congo.
+                     </note>  
+               </place>
+            </place>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   
+   <standOff>
+      <interpGrp>
+         <interp xml:id ="CIT-AUTORITE">Mention d'une personnalité à des fins d'argumentation d'autorité ou de citation</interp>
+         <interp xml:id="CLINIQUE-EXP">Mention d'un individu ou d'une population dans le cadre d'un examen clinique ou d'une expérience</interp>
+         <interp xml:id="DESC-CLINIQUE-EXP">Description d'un individu ou d'une population faisant l'objet d'un examen clinique ou d'une expérience.</interp>
+      </interpGrp>
+   </standOff>
+   
+   <text>
+      <body>
+         <div1 type="BSPE" n="1908">
+            <div2 type="annee_volume" n="8">
+               <div3 part="SPE" article_id="BSPE-1908-508">
+                  <div4 type="Communication">
+                     <pb n="508"
+                        facs="https://archive.org/details/BIUSante_bspex1908/page/n519/mode/1up"/>
+
+                     <head rend="center">Sur le traitement de la Trypanosomiase humaine <lb/> Par
+                           <persName role="auteur" key="#G.Martin">Gustave MARTIN</persName> et
+                           <persName role="auteur" key="#A.Leboeuf">LEBŒUF</persName>.</head>
+
+                     <p n="1">Une des principales préoccupations de la <orgName>mission française
+                           d’études de la maladie du sommeil</orgName> a été la recherche d’un
+                        traitement efficace de la Trypanosomiase humaine. Nous
+                        donnerons dans une des prochaines réunions de la <orgName ref="#SPE">Société
+                           de Pathologie exotique</orgName> nos résultats obtenus avec l’atoxyl
+                        employé, à différentes doses, Soit seul, soit associé aux couleurs de
+                        benzidine et au mercure. Nous voulons seulement aujourd’hui attirer
+                        l’attention : 1° sur la médication de l’orpiment, conseillée par MM.
+                           <persName ana="#CIT-AUTORITE" key="#A.Laveran">LAVERAN</persName> et <persName ana="#CIT-AUTORITE"
+                              key="#A.Thiroux">THIROUX</persName>
+                        <ptr type="footref" source="#fn1"/>(1) et, 2° sur celle de l’émétique,
+                        que M. <persName ana="#CIT-AUTORITE" key="#F.Mesnil">MESNIL</persName> nous a
+                        conseillée et que nous avons pratiquée, comme <persName ana="#CIT-AUTORITE"
+                           key="#Broden">BRODEN</persName> et <persName ana="#CIT-AUTORITE" key="#J.Rodhain"
+                              >RODHAIN</persName>, en injections intra-veineuses. </p>
+
+                     <list type="argumentation" rend="numbered">
+                        <item n="1">
+                           <p n="2">Dans leur rapport sur la prophylaxie de la
+                                 maladie du sommeil, MM. <persName ana="#CIT-AUTORITE" key="#A.Laveran"
+                                    >LAVERAN</persName> et <persName ana="#CIT-AUTORITE" key="#A.Kermorgant">KERMORGANT</persName> ont insisté sur l’emploi de l’orpiment qui,
+                              se prenant en pilules et ne coûtant pas cher, pouvait facilement et
+                              largement être administré aux indigènes. L’orpiment, s’il faisait
+                              disparaître les Trypanosomes de la grande circulation, supprimait par
+                              suite les dangers de contamination. </p>
+                           <p n="3">M. <persName role="author" key="#A.Leboeuf">LEBOEUF</persName> a utilisé
+                              l’orpiment seul, d’abord à des doses quotidiennes de 0 gr. 10, 0 gr.
+                              15 et 0 gr. 20; chez trois premiers malades, il y eut disparition des
+                              Tryp. des ganglions; ces succès n’avant pu être reproduits chez deux
+                              autres malades (aucun changement dans le nombre des Tryp. des
+                              ganglions), <persName role="author" key="#A.Leboeuf">LEBOEUF</persName> pensa que
+                              les premiers résultats pouvaient être dus à des coïncidences, et sur
+                              les conseils de M. <persName ana="#CIT-AUTORITE" key="#A.Laveran">LAVERAN</persName>
+                              d’augmenter les doses,il donna des quantités journalières de 0 gr. 30
+                              à 0 gr. 40, puis de 0 gr. 50 à 0 gr. 80.</p>
+                           <p n="4">Ces doses, qui semblent amener une certaine amélioration de
+                              l’état général du malade provoquent souvent de la diarrhée, mais les
+                              Trypanosomes disparaissent généralement du sang et du liquide
+                              ganglionnaire.        
+                         <pb n="509"
+                              facs="https://archive.org/details/BIUSante_bspex1908/page/n520/mode/1up"/>                      
+                           n="5">Des recherches continuent dans ce sens. Plusieurs malades ont
+                              été mis au traitement mixte atoxyl-orpiment, mais les doses de ce
+                              dernier médicament ont été jusqu’à présent trop faibles pour qu’on
+                              puisse lui attribuer les bons effets que peut'expliquer l’emploi
+                              judicieux de doses d’atoxyl régulièrement administrées.</p>
+                        </item>
+
+                        <item n="2">
+                           <p n="6">Sans connaître l’intéressant travail de <persName ana="#CIT-AUTORITE" key="#Broden"
+                              >BRODEN</persName> et <persName ana="#CIT-AUTORITE" key="#J.Rodhain"
+                                    >RODHAIN</persName>,sur leurs premiers résultats obtenus par les
+                              injections intra-veineuses d’émétique <ptr type="footref"
+                                 source="#fn2"/>(1), le Dr <persName role="author" key="#A.Leboeuf"
+                                    >LEBOEUF</persName> avait, commencé par 1 cgr.d’émétique, puis 2 et
+                              3 cgr., et était arrivé à 10 cgr. sans provoquer le moindre phénomène
+                              général réactionnel. Il emploie une solution à 1 %, soit dans l’eau
+                              ordinaire, soit dans l’eau physiologique à 7 0/00. L’injection à la
+                              seringue dans des conditions de rigoureuse asepsie ne lui a jamais
+                              causé d’accidents. L’injection est indolore ou presque indolore.
+                              Quelquefois, pendant une à deux minutes, il existe une très légère
+                              douleur sur le trajet des veines jusqu’à l’aisselle. <seg ana="#DESC-CLINIQUE-EXP">Les noirs qui
+                              supportent si difficilement les injections sous-cutanées d’atoxyl
+                              acceptent assez volontiers les injections intra-veineuses d’émétique.</seg>
+                              On ne saurait trop insister sur la grande valeur d’une médication qui
+                              pourrait être tolérée par l’indigène. </p>
+                           <p n="7">Les malades paraissent rapidement améliorés par ces injections
+                              d’émétique, mais l’avenir seul nous renseignera sur leur réelle
+                              valeur. </p>
+                           <p n="8">Les Trypanosomes disparaissent vite, non seulement du sang,mais
+                              des ganglions. </p>
+                           <p n="9">Une femme(<seg ana="#DESC-CLINIQUE-EXP">Toumba, originaire de <placeName ref="#Kasaï">Kassaï</placeName></seg> a
+                              des Tryp. assez nombreux dans les ganglions cervicaux. Une injection
+                              de 5 cgr. d’émétique en solution à 1 % (soit 5 cmc.) est faite dans
+                              une veine du pli du coude à 9 h. 30 du matin. Trois ganglions
+                              cervicaux pouctionnés à 10 h. 40 ne laissent voir aucunparasite dans
+                              leur lymphe.</p>
+                           <p n="10">
+                              <persName ana="#CLINIQUE-EXP" key="#NZali">N’Zali</persName><seg ana="#DESC-CLINIQUE-EXP">de race bondjo</seg> dont les
+                              ganglions cervicaux montrent des Tryp.assez nombreux, reçoit à 2 h. 50
+                              une injection intraveineuse de 5 cgr. d’émétique en solution à 1 °/a.
+                              Les recherches les plus minutieuses à 3 h. 20 nepermettent pas de
+                              déceler la présence du moindre Tryp. dans les ganglions</p>
+                           <p n="11">Rapprochons de ces observations celle d’un bœuf trypanosomé (T.
+                              congo-lense) qui présentait de très nombreux parasites dans le sang
+                              (10 par champ)le 15 septembre à 9 h. du matin.A 11 heures une
+                              injection intraveineuse de 40 cgr. d’émétique en solutionà 1 % soit 40
+                              cmc. est très bien supportée par l’animal dont le sang examiné quinze
+                              minutes après montre encore des T. non rares (9 en cinq minutes).</p>
+                           <p n="12"> A 11 h. 30 les Tryp. sont presque tous en boule et peu agiles.
+                              A 11 h. 45 trois formes seulement sont vues, à peine mobiles (deux
+                              lames examinées
+                     
+                           <pb n="510"
+                              facs="https://archive.org/details/BIUSante_bspex1908/page/n521/mode/1up"
+                           /> 
+                          par deux observateurs différents). A 12 h. 5 deux lames examinées par
+                           deux observateurs ne montrent aucune forme de Trypanosomes.Le lendemain
+                           il n’y avait pas de T. dans le sang circulant. Ces différentes recherches
+                           sur la valeur de l’orpiment et del’émétique en injections
+                           intra-veineuses, soit employés seuls, soit associés à l’atoxyl, méritent
+                           donc d’être poursuivies avec persévérance.</p>
+                        </item>
+                     </list>
+                     <span rend="right">(<orgName ref="#MissionMaladieSommeil">Mission d’Etudes de la Maladie du Sommeil</orgName>.) </span>
+                        
+                  </div4>
+                  <div4 type="Discussion">
+                     <sp>
+                        <speaker resp="#F.Mesnil">MESNIL</speaker>
+                        <said  direct="true">
+                           <p>Notre collègue, M. le Dr <persName ana="#CIT-AUTORITE" key="#Lafont">LAFONT</persName>,
+                              des troupes coloniales, directeur du <orgName ref="#Labo-bact-Maurice"
+                                 >laboratoire de bactériologie de l’Ile Maurice</orgName>, qui
+                              expérimente méthodiquement tous les traitements propres à guérir le
+                              Surra, a essayé, sur mes conseils, l’émétique de potassium. Il a
+                              reconnu (lettres du 26 mai et du 25 juillet) que les chevaux pouvaient
+                              supporter des doses de 1 gr. à 1 gr. 50 d’emblée dans la veine
+                              jugulaire (2 gr. est une dose trop forte); les parasites disparaissent
+                              de la circulation périphérique entre 45 minutes et 1 heure. M.
+                              <persName ana="#CIT-AUTORITE" key="#Lafont">LAFONT</persName> publiera ses résultats en
+                              détails. J’ai voulu simplement faire connaître que, depuis plusieurs
+                              mois, il employait l’émétique par la voie intra-veineuse chez le
+                              cheval. <persName ana="#CIT-AUTORITE" key="#J.D.E.Holmes">HOLMES</persName>
+                                       (<bibl><title ref="#JTropVet"><abbr>Journ. of trop. vet. Sc.</abbr></title>,
+                                    <biblScope unit="volume" n="3">t. III</biblScope></bibl>) a
+                              d’ailleurs recommandé,chez les poneys surrés, l’injection
+                              intra-veineuse, non seulement de l’émétique, mais encore de l’atoxyl
+                              et du sublimé. </p>
+                        </said>
+                     </sp>
+                  </div4>
+                  <note  type="footnote" xml:id="fn1">
+                     <biblStruct>
+                        <analytic>
+                           <title type="article">Recherches sur le traitement des
+                              Trypanosomiases</title>
+                           <author key="#A.Laveran">LAVERAN</author>
+                           <author key="#A.Thiroux">THIROUX</author>
+                        </analytic>
+                        <monogr>
+                           <title type="revue" ref="#Ann.IP"><abbr>Ann. Inst.
+                              Pasteur</abbr></title>
+                           <imprint>
+                              <date>1908</date>
+                              <biblScope unit="issue">février</biblScope>
+                              <publisher ref="#IP">Institut Pasteur</publisher>
+                              <biblScope unit="page">98-131</biblScope>
+                           </imprint>
+                        </monogr>
+                     </biblStruct>
+                  </note>
+                  <note type="footnote" xml:id="fn2">
+                     <biblStruct>
+                        <monogr>
+                           <title type="revue" ref="#Archiv_SchiffsTropHyg">Archiv für Schiffs und Tropen-Hygiene</title>
+                           <imprint>
+                              <date when="1908">juillet 1908</date>
+                              <biblScope unit="volume" n="14">14</biblScope>
+                           </imprint>
+                        </monogr>
+                     </biblStruct>
+                  </note>
+               </div3>
+            </div2>
+         </div1>
+      </body>
+   </text>
+</TEI>

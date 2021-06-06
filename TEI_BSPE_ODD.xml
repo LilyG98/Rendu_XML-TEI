@@ -1,0 +1,2021 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>ODD du Bulletin de la Société de pathologie exotique</title>
+            <author>Lily Grumbach</author>
+         </titleStmt>
+         <publicationStmt>
+            <p>Edition encodée d'un article extrait du Bulletin de la Société de pathologie exotique
+               comme exemple pour un encodage de deux revues scientifiques en situation coloniale :
+               les Annales d'Hygiène et de médecine coloniale et le Bulletin de la Société de
+               pathologie exotique.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p> Derived from <ref
+                  target="https://www.tei-c.org/Vault/P5/current/xml/tei/odd/p5subset.xml">base
+                  odd</ref> after an analysis of 4 files in file:/home/humanum/Bureau/LGrumbach_TEI/
+            </p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div1 n="1">
+            <head>GUIDE D'ENCODAGE</head>
+
+            <div2 n="1.1.">
+               <head>Les revues scientifiques de santé en situation colonial</head>
+
+               <p>Apanage du « Prométhée colonial »1, la médecine est, avec l’éducation, au cœur des
+                  discours de légitimation de la colonisation au nom de la « mission civilisatrice »
+                  des États colonisateurs. Cette caractéristique en fait un sujet de prédilection
+                  dans le cadre de ce que l’on peut considérer rétrospectivement comme un tournant
+                  historiographique concernant l’étude des sociétés coloniales. </p>
+               <p> Terrain de structuration des représentations et savoirs disciplinaires, la forme
+                  périodique est le médium privilégié par les communauté scientifiques et notamment
+                  des disciplines relatives à la santé et la médecine. En effet, cette dernière
+                  s'est dotée de formes périodiques mensuelles bien avant les autres disciplines
+                  telles que les sciences de l'ingénieur, l'histoire ou encore le droit. Or selon
+                  Jean Delhombre, les revues sontavant tout des <quote>journaux
+                     professionnels</quote> en tant qu'ils sont avant tout des lieux de construction
+                  d'une profession. Dès lors, il est possible à partir des revues de reconstituer
+                  l'organisation d'un travail scientifique autour des sociabilités savantes et pour
+                  cela reconstituer le réseau des acteurs.</p>
+               <p> En situation coloniale, les revues scientifiques rendent compte des observations
+                  et recherches des acteurs au plus près du terrain. Supports de circulation des
+                  savoirs, elles sont souvent soutenues financièrement ou institutionnellement par
+                  l'administration coloniale ou par des entreprises privées. Parmi l'ensemble des
+                  revues scientifiques en situation coloniale, celles relevant de la médecine et de
+                  la santé font l'objet d'un intérêt particulier face aux "pathologies exotique" qui
+                  non seulement fragilise </p>
+               <p>Nous faisons donc l'hypothèse avec Deborah Neill que ces sciences reposent avant
+                  tout chose sur une communauté épistémique au sens définit par Peter Haas. C'est à
+                  dire un réseau de professionnels "ayant une expertise et une compétence reconnues
+                  dans un domaine particulier et faisant autorité en matière de connaissances
+                  pertinentes pour la politique dans ce domaine ou ce champ d'action.”. </p>
+
+               <p rend="bold underlined">Présentation des sources</p>
+               <p> Fondées à 10 ans d'écart, les deux revues étudiées ici ont coexisté au cours de
+                  la majeure partie premier XXe siècle. Ces dix années d'écart sont marquées dans
+                  les métropoles coloniales par une vague d'institutionnalisations de sciences
+                  regardant les colonies : London School of Tropical Hygiene (1900, Londres), Archiv
+                  für Schiffs-und Tropenhygiene (1897, Hambourg), Ecole d'Application du Service de
+                  Santé des Troupes Coloniales (Marseille, 1905) etc. Les deux revues ont la
+                  particularité de partager des contributeurs, thématiques et terrains d'étude.
+                  Toujours publiées de nos jours, ces revues ont marqué le premier XXe siècle par
+                  leur portée internationale en raison des problématiques transcoloniales et
+                  transimpériales soulevées en leur sein. </p>
+
+               <p>
+                  <hi rend="bold">les Annales d'hygiène et de médecine coloniales </hi><lb/> En
+                  1898, huit ans après la création du ministère des colonies et du corps de médecine
+                  coloniale, paraît le premier numéro des Annales d’hygiène et de médecine coloniale
+                  (ci-après "AHMC"), devenue en 1920 les Annales de médecine et pharmacie coloniale.
+                  Composée de 38 numéros publiés entre 1898 et 1940, elle s’est déployée dans le
+                  contexte de la stabilisation de l’expansion coloniale française. <lb/> La revue
+                  accompagne donc à tous égards la tentative d’autonomisation du champ colonial de
+                  celui des instances militaires dont il dépendait directement jusqu’alors. Les AHMC
+                  ont alors la principale fonction de consolider l'identité corporatiste et
+                  thématique du Corps de santé des colonies et pays de protectorat. L’objectif de la
+                  revue est donc de produire un savoir destiné à orienter les politiques publiques
+                  des territoires de l’empire français. Dépendantes directes du ministère des
+                  colonies, elle n'est néanmoins pas tant un lieu de débat entre paires qu'un espace
+                  d'information adressé aux médecins du Service de santé des Troupes coloniales
+                  répartis dans les possessions françaises. </p>
+               <lb/>
+               <p>
+                  <hi rend="bold">Le Bulletin de la Société de pathologie exotique</hi><lb/>
+                  Bulletin de la Société de pathologie exotique (ci-après "BSPE") a été créé 1908 en
+                  même temps que la Société de pathologie exotique dont il dépend. Le BSPE a pour
+                  fonction première de servir de support à la publication des travaux des
+                  sociétaires présentés en séance sous forme de communication ou de mémoire. Il rend
+                  aussi compte de la vie de la Société par la retranscription des discours
+                  d'ouverture et discussions à l'issue des présentations. Est aussi mis en avant les
+                  correspondances entretenues par la revue avec des membres du gouvernement ou
+                  d'autres scientifiques. <lb/> Créée par le prix Nobel de médecien (1907) Alphonse
+                  Laveran, la SPE et son bulletin s'inscrivent dès le début dans une perspective
+                  internationale, tant au regard des membres de la Société qu'en considération des
+                  revues échangées. Une autre spécificité de la société est sa pluridisciplinarité.
+                  en effet, si elle compte parmi ses membres une grande majorité de médecins, elle
+                  est aussi ouverte aux vétérinaires, anthropologues et chercheurs travaillant dans
+                  le domaine de la médecine tropicale humaine et animale et de la santé publique
+                  dans les pays en voie de développement. <lb/> Le Bulletin de la Société de
+                  pathologie exotique leur offre la possibilité de faire connaître leurs travaux
+                  sous forme d’articles ou de courtes notes, après acceptation par un comité de
+                  rédaction appuyé par un comité de lecture constitué de spécialistes reconnus au
+                  plan international. </p>
+               <lb/>
+               <p>Evolutions de la SPE : A partir de 1923, le BSPE publie aussi les mémoires et
+                  communications de sociétés scientifiques de colonies françaises : <list>
+                     <item n="1">La Société médico-chirurgicale de l'Ouest-Africain (à partir de
+                        1923)</item>
+                     <item n="2">La Société des Sciences médicales de Madagascar (à partir de
+                        1928)</item>
+                  </list>
+               </p>
+
+            </div2>
+            <div2 n="1.2.">
+               <head>Problématique et objectifs de l’encodage</head>
+               <div3 n="1.2.1.">
+                  <head>Un projet transversal aux enseignements numériques du master à l'origine de
+                     l'encodage</head>
+                  <p> Cet encodage repose sur un projet d'édition numérique des revues étudiées dans
+                     le cadre du mémoire de master. Développé dans un premier temps pour le rendu d'
+                     "Introduction aux Humanités numériques" de M. Stokes, nous avions proposé de
+                     créer un site internet permettant une lecture transverse des trois revues en
+                     situation coloniale. Ce projet avait pour objectif de permettre une
+                     déambulation thématique à travers les articles en fonction de leurs auteurs,
+                     des thématiques abordées et des lieux concernés. Au fil de l'année, nous avons
+                     donc décidé de nous référer à ce projet de départ pour orienter nos recherches
+                     dans les autres enseignements : Topic Modelling (R, enseignement de M.
+                     Stockholm), Reconnaissance d'entités nommées (TAL, enseignement de M. Poibeau),
+                     SIG (séminaire TAIS, enseignement de M.Mermet) et enfin TEI.</p>
+                  <p>La difficulté (et l'intérêt) d'étudier de telles sources volumineuses (au
+                     minimum 700 pages publiées chaque année pour chaque revue) sur une période
+                     relativement longue comme nous le faisons pour notre mémoire est de saisir
+                     l'évolution de toutes ses composantes : l'organisation matérielle de la revue,
+                     le statut de ses acteurs, l'évolution des thématiques et des territoires
+                     concernés. Dans le présent rendu, nous nous concentrerons sur le réseau qui se
+                     noue au sein de la revue. </p>
+               </div3>
+
+               <div3 n="1.2.2.">
+                  <head>Une analyse de réseau</head>
+                  <p> Les revues en tant qu'outil de diffusion d'une information produite en
+                     relation avec une institution peuvent être définies de fait comme un réseau
+                     d'acteurs et institutions. En effet, si les auteurs, fondateurs et éditeurs des
+                     revues en sont les acteurs les plus évidents, il est possible, à l'échelle de
+                     l'article, de rendre compte d'autres réseaux en question : co-citation,
+                     argument d'autorité et références à des institutions. </p>
+
+                  <p> Couplé aux données de type prosopographique du TEI Header, le balisage
+                     problématisé que nous proposons permettrait de constituer le réseau d'acteurs
+                     Le balisage problématisé que nous proposons permettrait alors de Suppose
+                     d'encoder non seulement le nom des acteurs mais aussi le lieu auquel ils sont
+                     associés. Dès lors, le balisage TEI unique pour les deux revues </p>
+
+               </div3>
+
+               <div3 n="1.2.3.">
+                  <head>Pour une autre histoire du fait colonial</head>
+                  <p> Du terrain au laboratoire, de la clinique aux séances de Société, les topos
+                     des sciences médicales sont variés et traversés de populations diverses.
+                     Pourtant, du terrain à l'article, les individus qui ont, par la mise à
+                     disposition de leur corps, permit au scientifique de tirer ses conclusions,
+                     sont soit éclipsés au profit des résultats, soit mis au coeur du dispositif
+                     argumentatif pour en souligner l'exception ou au contraire comme cas d'école.
+                     En situation coloniale, cette ambivalence est d'autant plus forte qu'elle
+                     traduit un regard dominant conforté par une situation d'inégalité
+                     intitutionnelle. Il nous a ainsi semblé important de proposer aussi une lecture
+                     de la revue par le bas. Faire parler les personnes et populations à priori tues
+                     derrière la microbiologie et la médecine des grands nombres. Toutefois, au
+                     regard de notre connaissance des revues médicales et en particulier de celles
+                     en situation coloniale, il nous semble important de relever aussi les patients
+                     et sujets médicaux n'appartenant pas à la population locale. Nous pourrions
+                     ainsi estimer dans un second temps les différences ou non de traitement. </p>
+                  <p> De plus, la spécificité de la situation coloniale est son attachement à des
+                     espaces géographiques divers. D'après la formule de David Arnold, <quote>no
+                        other scientific specialty [than medicine] relied so heavily on geographical
+                        location</quote>. Dès lors, la dissémination des acteurs de la revue comme
+                     des populations étudiées donne lieu de fait à des interactions de natures
+                     diverses : entre Métropole et colonie mais aussi dans les relations
+                     transcoloniales et transimpériales qu'elles supposent. Jusqu'au début des
+                     années 2000, l'historiographie s'est notamment attardée sur les relations entre
+                     la Métropole et ses colonies ou encore entre Métropoles coloniales. Toutefois,
+                     l'étude du réseau des acteurs à travers nos deux revues permettent de concevoir
+                     une nouvelle géographie de la médecine en situation coloniale. Ainsi, bien que
+                     les deux revues étudiées soient fortement reliées à des institutions
+                     métropolitaines (Ministère des colonies, Société de Pathologie exotique) nous
+                     estimons qu'elle traduisent aussi d'autres relations relevant d'une autre
+                     échelle comme en témoigne la création de filliales de la SPE dans le colonies
+                     qui ont pour effet de "provincialiser" relativement la Métropole.</p>
+               </div3>
+            </div2>
+            <div2 n="1.3.">
+               <head>Méthode d'encodage</head>
+               <div3 n="1.3.1.">
+                  <head>Situer l’article dans la revue</head>
+                  <p>Valérie Tesnière dans son dernier ouvrage a souligné l'importance de considérer
+                        <quote>« Le texte [comme] un objet social que l’on ne peut comprendre qu’en
+                        l’historicisant dans la totalité des processus de production, de
+                        transmission et d’appropriation, et donc des formes matérielles où il
+                        s’inscrit »</quote>. Rendre compte des formes matérielles de la source à
+                     savoir son paratexte, les données typographiques, la mise en page et les
+                     illustrations qui caractérisent le texte a donc été un premier souci de notre
+                     encodage. </p>
+                  <p> En travaillant à l'échelle de l'article, nous avons structuré l'encodage de
+                     manière à d'une part situer l'article dans l'ensemble des publications du
+                     Bulletin de la Société de pathologie exotique et d'autre part mettre en avant
+                     la structure même de chaque article. Un enjeu majeur a, à cet égard, été de
+                     pouvoir proposer un encodage de chaque article lié à ma base de données
+                     personnelle. Souhaitant rendre compte de la situation de l'article dans la
+                     revue au sein même du <gi>body</gi>, j'ai donc procédé l'encodage comme suit : <lb/>
+                     <table rend="boxed" rows="7" cols="3">
+                        <lb/>
+
+                        <row n="1">
+                           <cell>Nom de la colonne dans le dataframe</cell>
+                           <cell>Encodage TEI</cell>
+                           <cell>Note</cell>
+                        </row>
+                        <lb/>
+
+                        <row n="2">
+                           <cell>revue_annee</cell>
+                           <cell>Dans la <gi>div1</gi>, <att>type</att> = "[NomRevue]_annee"
+                                 <att>n</att> = "[annee]" </cell>
+                           <cell> </cell>
+                        </row>
+                        <lb/>
+
+                        <row n="3">
+                           <cell>annee_volume</cell>
+                           <cell>Dans la <gi>div2</gi>,<att>type</att> = "annee_volume"
+                              <att>n</att>="[\d{1,2}]"</cell>
+                           <cell> </cell>
+                        </row>
+                        <lb/>
+
+                        <row n="4">
+                           <cell>article_id</cell>
+                           <!-- [NomRevue]-[revue_annee]-[article_page] -->
+                           <cell>Dans la <gi>div3</gi>, création de l'attribut <att>article_id</att>
+                              = "[NomRevue]-[revue_annee]-[article_page]"</cell>
+                           <cell>Bien que le nom des revues évolue au cours du premier XXe siècle,
+                              pour des raisons d'uniformisation le [NomRevue] de
+                                 l'<att>article_id</att> se réfère toujours au premier nom par son
+                              abbréviation, soit : "AHMC" et "BSPE". </cell>
+                        </row>
+                        <lb/>
+
+                        <row n="5">
+                           <cell>article_section</cell>
+                           <cell>Dans l'élément <gi>div4</gi>, recours à
+                              <att>type</att>="[Nom_Section]"</cell>
+                           <cell> Dans le cas des AHMC et AMN, le nom des sections varie beaucoup au
+                              fil du premier XXe siècle. Par ailleurs, la section à laquelle
+                              appartient une contribution est parfois assez vague. Les valeurs
+                              pouvant être prises par <att>type</att> ont donc été précisées au
+                              maximum. Dans l'ODD, jai toutefois laissé l'attribut <att>type</att>
+                              de l'élément<gi>valList</gi> en "open"</cell>
+                        </row>
+                        <lb/>
+
+                        <row n="6">
+                           <cell>article_titre</cell>
+                           <cell/>
+                        </row>
+                        <lb/>
+
+                        <row n="7">
+                           <cell>article_auteur</cell>
+                           <cell>Recours à l'élément <gi>author</gi>dans le TEI Header et dans le
+                                 <gi>head</gi> du <gi>body</gi>, les auteurs sont annoncés avec le
+                              titre par l'élément <gi>persName</gi>, l'attribut
+                              <att>role</att>="auteur" <att>key</att>="#[xml:id de l'auteur]"</cell>
+                           <cell> </cell>
+                        </row>
+                     </table> Par exemple : <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                        <div1 revue="BSPE" type="revue_annee" n="1908">
+                           <div2 type="annee_volume" n="8">
+                              <div3 part="SPE" article_id="BSPE-1908-508">
+                                 <div4 type="Communication"> </div4>
+                              </div3>
+                           </div2>
+                        </div1>
+                     </egXML>
+                  </p>
+
+                  <p rend="bold"> Particularités de la structure du BSPE</p>
+                  <p rend="underline">Intégrer les débats d'une société savante </p>
+                  <p>Dans le BSPE, la section "Discussion" est la transcription d'un échange entre
+                     scientifiques à l'issue de la présentation d'une communication ou un mémoire
+                     présenté au cours d'une séance. Nous avons fait le choix de présenter cette
+                     partie sur le mode de la prise de parole théâtrale afin de rendre compte aussi
+                     du travail de transcription effectué par le secrétaire de la séance. Cette
+                     partie se trouve alors dans la <gi>div4</gi> avec <att>type</att> =
+                     "Discussion". La prise de parole est alors introduite par <gi>sp</gi>,
+                        <gi>speaker</gi> dont l'attribut <gi>resp</gi> renvoi à l' <att>xml:id</att>
+                     du locuteur. La prise de parole même est délimitée par <gi>said</gi> prenant
+                     l'attribut <att>direct</att> = "true". </p>
+                  <p rend="underline">Rendre compte des filliales de la SPE</p>
+                  <p>A partir de 1923, les pages du BSPE rendent aussi compte des activités de la
+                     Société Médico-chirurgicale de l'Ouest-Africain. En 1928 s'y ajoute la Société
+                     des sciences médicales de Madagascar. Ainsi, dans le cas où l'article encodé
+                     est issu du BSPE, est ajouté à l'élément <gi>div3</gi>l'attribut
+                        <att>part</att> pour référencer la société savante dans le cadre de laquelle
+                     a été réalisé la communication ou le mémoire. Les valeurs associées à
+                        <att>part</att> sont les accronymes de chacune des sociétés :"SPE",
+                     "SMCOA","SSMM". Par exemple : <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                        <div3 part="SMCOA" article_id="BSPE-1908-508"/>
+                     </egXML>
+                  </p>
+
+               </div3>
+               <div3 n="1.3.2.">
+                  <head>Références bibliographiques et notes de bas de page</head>
+                  <div4 n="1.3.3.1">
+                     <head>Notes de bas de page</head>
+                     <p> Dans le corps de l'article au niveau de l'indice de la note de base de
+                        page, nous avons entré <gi>ptr</gi> avec <att>type</att>="footref" et
+                        l'attribut <att>source</att> pour se référer à l'identifiant de la note de
+                        bas de page. Cet identifiant est de la forme "fn[\d]" avec [\d] le numéro de
+                        la note de bas de page à l'échelle de l'article. En effet dans la source,
+                        les notes de bas de page sont comptabilisées par page et non par article.
+                        Malgré l'importance de la mise en page relevée précemment, nous avosfait le
+                        choix de référer les notes de bas de page en fin d'article afin de faciliter
+                        la lecture dans le cadre du projet d'édition critique numérique. <lb/>La
+                        note de bas de page est référencée dans un élément <gi>note</gi> avec
+                           <att>type</att>="footnote" situé juste avant le changement de page
+                           <gi>pb</gi>. <lb/> Les revues indiqués dans la note de bas de page sont
+                        référencées dans le <gi>partiDesc</gi> au sein de l'organisation
+                           <gi>org</gi> à laquelle elles sont affiliées. </p>
+                     <p>Enfin, à partir de 1929 pour les AHMC et 1932 pour le BSPE, les articles
+                        comportent une bibliographie en fin d'article. Dans ce cas ci, si la
+                        référence est indiquée dans le corps de l'article, on remplace la valeur
+                        "footref" par "endref" et "fn[\d]" par "en[\d]" </p>
+                  </div4>
+                  <div4 n="1.3.3.2">
+                     <head>Références bibliographiques</head>
+                     <p>L'élément <gi>bibleStruct</gi> a été utilisé constamment pour nous référer à
+                        un article de revue ou une contribution dans un ouvrage. Nous avons donc
+                        précisé l'élément <gi>title</gi>par un attribut <att>type</att> pouvant
+                        prendre les valeurs : "article", "revue", "ouvrage","chapitre". </p>
+                  </div4>
+                  <div4 n="1.3.3.3">
+                     <head>Liens URI</head>
+                     <p>Notamment utilisés dans le TEI Header, les références réalisées par lien URI
+                        sont indiquées par <gi>ref</gi> avec <att>type</att>="uriref"
+                           <att>target</att>="[lien uri]" </p>
+                     <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                        <note type="footnote" xml:id="fn1">
+                           <biblStruct>
+                              <analytic>
+                                 <title type="article">Recherches sur le traitement des
+                                    Trypanosomiases</title>
+                                 <author key="#A.Laveran">LAVERAN</author>
+                                 <author key="#A.Thiroux">THIROUX</author>
+                              </analytic>
+                              <monogr>
+                                 <title type="revue" ref="#Ann.IP"><abbr>Ann. Inst.
+                                    Pasteur</abbr></title>
+                                 <imprint>
+                                    <date>1908</date>
+                                    <biblScope unit="issue">février</biblScope>
+                                    <publisher ref="#IP">Institut Pasteur</publisher>
+                                    <biblScope unit="page">98-131</biblScope>
+                                 </imprint>
+                              </monogr>
+                           </biblStruct>
+                        </note>
+                     </egXML>
+                  </div4>
+               </div3>
+
+               <div3 n="1.3.3.">
+                  <head>Les acteurs</head>
+                  <p>Au coeur de notre démarche de balisage, la reconstitution du réseau est réalisé
+                     en deux temps. <lb/>
+                     <list>
+                        <item>1. L'encodage des acteurs scientifiques et autres personnes dans le
+                           body</item>
+                        <item>2. Le référenecment des acteurs scientifiques dans le TEI
+                           Header</item>
+                        <item>3. La constitution du réseau</item>
+                        <item>4. Pour un histoire par le bas : référencement des </item>
+                     </list>
+                  </p>
+                  <div4 n="1.4.2.1.">
+                     <head>Encodage des acteurs dans le <gi>body</gi></head>
+                     <list>
+                        <item> L'encodage des acteurs a été réalisé par la balise
+                           <gi>persName</gi>avec un attribut <att>key</att> qui renvoie à
+                              l'<att>xml:id</att> de la balise <gi>person</gi> située dans le
+                              <gi>partiDesc</gi>. À chaque personnage correspond donc un identifiant
+                           de l'index. </item>
+
+                        <item> Pour indiquer le statut d'apparition de l'acteur dans le texte, nous
+                           avons intégré à la balise <gi>persName</gi> l'attribut <att>ana</att> qui
+                           renvoie à l' <att>xml:id</att> de l'une des deux balises
+                              <gi>interpret</gi> située dans le <gi>standoff</gi>. Les deux
+                              <att>xml:id</att> sont: "CIT-AUTORITE" et "CLINIQUE-EXP" </item>
+                        <item> Dans le cadre de l'encodage des individus et populations cliniques,
+                           nous avons utilisé la balise non structurée <gi>seg</gi> avec l'attribut
+                              <att>ana</att> se référant à un <att>xml:id</att> d'un des
+                              <gi>interpret</gi>décrit dans le <gi>standOff</gi> :
+                           "DESC-CLINIQUE-EXP" </item>
+                     </list>
+                     <p> Par exemple : <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                           <persName ana="#CIT-AUTORITE" key="#A.Laveran">LAVERAN</persName> et
+                              <persName ana="#CIT-AUTORITE" key="#A.Thiroux">THIROUX</persName>
+                        </egXML>
+                        <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                           <persName ana="#CLINIQUE-EXP" key="#NZali">N’Zali</persName><seg
+                              ana="#DESC-CLINIQUE-EXP">de race bondjo</seg>
+                        </egXML>
+                     </p>
+                     <lb/>
+
+                  </div4>
+                  <div4 n="1.4.2.2.">
+                     <head>Encodage des acteurs dans le <gi>partiDesc</gi></head>
+                     <list>
+                        <head>Traits caractéristiques immuables</head>
+                        <item n="1.1.">Dans l'élément <gi>person</gi>, référencement par
+                              <att>xml:id</att> et le <att>sex</att></item>
+                        <item n="1.2."><gi>persName</gi>
+                           <lb/></item>
+                        <item n="1.3."><gi>birth</gi> et <gi>death</gi> chacun avec l'attribut
+                              <att>when</att></item>
+                        <item n="1.4."><gi>nationality</gi></item>
+                     </list>
+                     <lb/>
+                     <list>
+                        <head>
+                           <hi rend="bold">Caractéristiques relatives à leur parcours
+                              professionnel</hi> : regroupées dans la balise <gi>occupation</gi>.
+                           Cette dernière est organisée en quatre parties permettant de concevoir la
+                           prosopographie de chacun par un jeu de balisage des occupations. Les
+                           éléments ont été ordonnés de l'occupation la plus restreinte à un petit
+                           groupe à la plus souple: </head>
+
+                        <item><p rend="underline">Le cas échéant : Le Corps de métier</p>Indiqué
+                           simplement par la balise <gi>affiliation</gi> avec l'attribut
+                              <att>type</att>="CorpsDeMetier" et <att>ref</att> =
+                           "#[ref_CorpsMetier]". Les corps de métiers référencés sont exclusivements
+                           ceux issus des corps de santé des trois corps français : Armée de Terre
+                           ("AT"), Marine ("M") et les Troupes coloniales (TC). Pour chacune est
+                           ajouté un suffixe en fonction du métier au sein du corps : "-Med" si
+                           médecin, "-Ph" si pharmacien.</item>
+                        <lb/>
+
+                        <item><p rend="underline">Le cas échéant : liste des statuts tenus par
+                              l'individu au sein de la Société de pathologie</p> Elle est indiquée
+                           par un élément <gi>list</gi>
+                           <att>type</att>="affiliation-SPE". A chaque <gi>item</gi> de la liste est
+                           associé un élément <gi>affilation</gi> autofermant contenant trois
+                           attributs : <att>key</att>="#SPE", <att>role</att>=[rôle tenu par
+                           l'individu] et <att>period</att>=[année1-année2]</item>
+
+                        <item><p rend="underline">Le cas échéant : liste des autres sociétés
+                              auxquelles ont appartenu les <gi>person</gi></p> L'élément
+                              <gi>list</gi> a alors <att>type</att>="autres_societes" </item>
+                        <lb/>
+                        <item><p rend="underline">Commun à tous : liste des postes de carrière
+                              occupés.</p><gi>list</gi> a alors <att>type</att>="carriere". A chaque
+                              <gi>item</gi> de la liste est associé un élément <gi>affilation</gi>
+                           contenant un attribut <att>period</att>. Le cas échéant, la description
+                           du poste occupé peut contenir un élément <gi>orgName</gi> ou
+                              <gi>settlement</gi></item>
+                        <lb/>
+
+                        <item>Le cas échéants : identifiant VIAF. Au regard du statut de chercheurs
+                           de nombreux des acteurs étudiés, leur grande majorité est référencée dans
+                           le <hi rend="italic">Virtual international authority file (VIAF)</hi>.
+                           Pour cela, nous avons utilisé l'élément <gi>ref</gi> avec l'attribut
+                              <att>type</att>a>="viafref" <att>target</att>="[IdVIAF]".</item>
+                     </list>
+                     <p>Par exemple : <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                           <person xml:id="J.Rodhain" sex="M">
+                              <persName>Jérôme Rodhain</persName>
+                              <birth when="1876"/>
+                              <death when="1956"/>
+                              <nationality>Belge</nationality>
+                              <occupation>
+                                 <list type="affiliation-SPE">
+                                    <item><affiliation key="#SPE" role="Membre correspondant"
+                                          period="1908-1956"/></item>
+                                    <item><affiliation key="#SPE" role="Membre associé"
+                                          period="1908-1956"/></item>
+                                 </list>
+                                 <list type="carriere">
+                                    <item><affiliation period="1907-1911">Directeur de
+                                             l'<orgName>Hôpital des noirs de Léopoldville</orgName>,
+                                             <settlement type="colony">Congo
+                                          Belge</settlement></affiliation></item>
+                                    <item><affiliation period="1912-19">Chef de la <orgName>Mission
+                                             scientifique du Katanga</orgName>,à Sankisia,
+                                             <settlement type="colony">Congo
+                                          Belge</settlement></affiliation></item>
+                                    <item><affiliation from="1925">Professeur d'hygiène tropicale,
+                                          médecine usuelle et biologie à l'<orgName>Université de
+                                                <settlement type="metropole"
+                                             >Gang</settlement></orgName> et l'<orgName>Université
+                                             coloniale d'<settlement type="metropole"
+                                                >Anvers</settlement></orgName></affiliation></item>
+                                 </list>
+                                 <list type="autres_societes">
+                                    <item><affiliation from="1929">Membre de l'<orgName>Académie
+                                             royale de médecine de
+                                       Belgique</orgName></affiliation></item>
+                                    <item><affiliation>Membre de la <orgName>Société Belge de
+                                             Médecine tropicale</orgName></affiliation></item>
+                                    <item><affiliation>Membre de la <orgName>Royal
+                                          Society</orgName></affiliation></item>
+                                    <item><affiliation>Membre de l'<orgName>Académie des Sciences
+                                             Coloniales de Paris</orgName></affiliation></item>
+                                    <item><affiliation>Membre de la<orgName>Nederlandsch vereeniging
+                                             voor Tropische geneeskunde
+                                          d’Amsterdam</orgName></affiliation></item>
+                                    <item><affiliation>Membre de l'<orgName>American Society of
+                                             Tropical Medicine</orgName></affiliation></item>
+
+                                 </list>
+                                 <ref type="uriref" target="http://www.armb.be/index.php?id=4499"/>
+                                 <ref type="uriref"
+                                    target="http://www.academieoutremer.fr/academiciens/?aId=926"/>
+                                 <ref type="viafref" target="281993139"/>
+                              </occupation>
+                           </person>
+                        </egXML>
+                     </p>
+                  </div4>
+               </div3>
+               <div3 n="1.3.4.">
+                  <head>Situer la sciences </head>
+
+                  <div4>
+                     <p>Nous avons balisé les noms d'organisation par <gi>orgName</gi> avec en
+                        attribut <att>ref</att>faisant référence au <att>xml:id</att> de l'élément
+                           <gi>org</gi> dans le <gi>partiDesc</gi>
+                        <lb/> Pour mettre en exergue les parcours croisés entre diverses
+                        organisations, nous avons aussi fait référence par <att>xml:id</att> à
+                        l'organisation à laquelle a été affiliée la personne en question. </p>
+                     <p>Chaque <gi>org</gi> est de même précisée par un <att>type</att> pouvant
+                        prendre les valeurs de "Mission","Fondation",
+                        "Administration","Laboratoire". <lb/> Le cas échéant, nous avons de même
+                        encodé la revue de référence, comportant l'attribut <att>xml:id</att>
+                        utilisé dans le corps du texte pour se référer aux revues.<lb/> Dans le
+                        cadre de l'importance attribuée à une géographie de la production des
+                        savoirs coloniaux, nous avons indiqué aussi systématiquement que possible
+                        (certaines ne sont pas localisables par nature) le lieu où se trouve
+                        l'organisation par la balise <gi>settlement</gi> contenant un attribut
+                           <att>type</att> pouvant prendre les valeurs :
+                        "colony","metropole","protectorat","autre". Si le lieu où se situe
+                        l'organisation est le même que celui traité dans l'article, nous y faisons
+                        référence par l'attribut <gi>ref</gi> se référant à <att>xml:id</att>
+                        indiqué dans <gi>place</gi> au sein de <gi>settingDesc</gi>.<lb/> Par
+                        exemple : <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                           <org type="Mission" xml:id="MissionMaladieSommeil">
+                              <orgName>Mission d’Etudes de la Maladie du Sommeil au Congo
+                                 français</orgName>
+                              <note> de 1906 à 1908, la Mission d’Etudes de la Maladie du Sommeil au
+                                    <settlement type="colony" ref="#Congo-frcs">Congo
+                                    français</settlement>, financée notamment par la
+                                    <orgName>Société de Géorgraphie</orgName> a eu pour objectif de
+                                 dresser une géographie médicale de la maladie du sommeil et en
+                                 tirer des recommandations de prophylaxie.</note>
+                              <bibl>
+                                 <title> Rapport de la mission d'études de la maladie du sommeil au
+                                    Congo français</title>
+                                 <author key="#G.Martin">Gustave Martin</author>
+                                 <author key="#A.Leboeuf">Alphonse Leboeuf</author>
+                                 <author>Emile Roubaud</author>
+                                 <date>1909</date>
+                                 <publisher>Masson Cie</publisher>
+                                 <ref type="uriref"
+                                    target="https://gallica.bnf.fr/ark:/12148/bpt6k6541694z"/>
+                              </bibl>
+                           </org>
+                        </egXML>
+                     </p>
+                  </div4>
+                  <div4>
+                     <head>Géographie des production de savoirs coloniaux</head>
+                     <p rend="bold">Localiser l'article</p>
+                     <p>Outre les organisations que nous avons affilié à un lieu, nous avons annoté
+                        dans le <gi>settingDesc</gi> les informations géographiques relatives aux
+                        espaces et territoires traités par l'article. Nous avons ainsi choisi
+                        d'enchevêtrer les balises <gi>place</gi> si elles apartiennent à la même
+                        entité administrative coloniale (à l'échelle du gouverneur). Dans le cas où
+                        l'article concernerait plusieurs lieux relevant d'entités administratives
+                        différentes, la balise <gi>listPlace</gi> serait alors utilisée.</p>
+                     <p>Nous tenons à indiquer pour cette partie l'importance que nous avons
+                        attribué à historiciser les lieux mentionnés dans le corps du texte dans une
+                        optique de désambigüisation des lieux grâce aux <gi>note</gi> et aux
+                        références bibliographiques <gi>bibl</gi>. A cet égard, le travail réalisé
+                        pour le rendu de SIG entrera dans les détails de la difficulté du
+                        géoréférencement en histoire coloniale.</p>
+                     <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                        <place>
+                           <settlement type="colony" xml:id="Congo-frcs">
+                              <placeName period="1891-1903">Congo français</placeName>
+                              <placeName period="1903-1960">Moyen-Congo</placeName>
+                           </settlement>
+                           <note> Le Congo français, ou "Moyen Congo" à partir de 1903, est une
+                              entité administrative de l'empire colonial français. Le Congo français
+                              est substitué en 1910 par l'Afrique équatoriale française. Le
+                              territoire est définit en 1903 comme "tous les territoires limités par
+                              le Gabonet la frontière du Cameroun jusqu'au 7e degré de latitude
+                              jusqu'au point où ce parallèle coupe à l'Est la ligne du bassin
+                              conventionnel, puis par cette ligne elle-même jusqu'à la frontière de
+                              l'Etat indépendant" <bibl>
+                                 <title>Décret portant organisation du Congo français et
+                                    dépendances</title>
+                                 <date when="1904-01-24"/>, Journal officiel, p.32 <ref
+                                    type="uriref"
+                                    target="https://gallica.bnf.fr/ark:/12148/bpt6k5492365f/f35.item"
+                                 />
+                              </bibl>
+                              <bibl>
+                                 <author>Vidal de la Blache</author><author>Camena
+                                    d'Almeida</author>
+                                 <title>l'Asie,l'Insulinde,l'Afrique</title>
+                                 <publisher>Librairie Armand Colin</publisher>
+                                 <date>1906</date>
+                                 <pubPlace>Paris</pubPlace>
+                              </bibl>
+                           </note>
+                        </place>
+                     </egXML>
+                  </div4>
+               </div3>
+            </div2>
+         </div1>
+         <div1 n="2">
+            <head>Elements employés</head>
+            <schemaSpec ident="oddbyexample" start="TEI ">
+               <moduleRef key="tei"/>
+               <!--Checking module textcrit-->
+               <classRef key="att.textCritical"/>
+               <classRef key="model.rdgLike"/>
+               <classRef key="model.rdgPart"/>
+               <classSpec ident="att.textCritical" type="atts" mode="change">
+                  <attList>
+                     <attDef ident="type" mode="delete"/>
+                     <attDef ident="cause" mode="delete"/>
+                     <attDef ident="varSeq" mode="delete"/>
+                     <attDef ident="require" mode="delete"/>
+                  </attList>
+               </classSpec>
+               <!--Checking module msdescription-->
+               <classRef key="model.physDescPart"/>
+               <!--Checking module namesdates-->
+               <classRef key="att.datable.iso"/>
+               <classRef key="model.persNamePart"/>
+               <moduleRef key="namesdates"
+                  include="orgName persName surname forename placeName country settlement geogName geogFeat affiliation birth death listOrg listPerson nationality occupation org person place"/>
+               <elementSpec ident="orgName" mode="change">
+                  <attList>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                     <attDef ident="period" mode="delete"/>
+                     <attDef ident="when" mode="delete"/>
+                     <attDef ident="to-iso" mode="delete"/>
+                     <attDef ident="role" mode="delete"/>
+                     <attDef ident="key" mode="delete"/>
+                     <attDef ident="type" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="persName" mode="change">
+                  <attList>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                     <attDef ident="period" mode="delete"/>
+                     <attDef ident="when" mode="delete"/>
+                     <attDef ident="from" mode="delete"/>
+                     <attDef ident="to-iso" mode="delete"/>
+                     <attDef ident="type" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="surname" mode="change">
+                  <attList>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                     <attDef ident="role" mode="delete"/>
+                     <attDef ident="key" mode="delete"/>
+                     <attDef ident="ref" mode="delete"/>
+                     <attDef ident="type" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="forename" mode="change">
+                  <attList>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                     <attDef ident="role" mode="delete"/>
+                     <attDef ident="key" mode="delete"/>
+                     <attDef ident="ref" mode="delete"/>
+                     <attDef ident="type" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="placeName" mode="change">
+                  <attList>
+                     <attDef ident="when" mode="delete"/>
+                     <attDef ident="from" mode="delete"/>
+                     <attDef ident="to-iso" mode="delete"/>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                     <attDef ident="role" mode="delete"/>
+                     <attDef ident="key" mode="delete"/>
+                     <attDef ident="type" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="country" mode="change">
+                  <attList>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                     <attDef ident="role" mode="delete"/>
+                     <attDef ident="key" mode="delete"/>
+                     <attDef ident="ref" mode="delete"/>
+                     <attDef ident="type" mode="delete"/>
+                     <attDef ident="period" mode="delete"/>
+                     <attDef ident="when" mode="delete"/>
+                     <attDef ident="from" mode="delete"/>
+                     <attDef ident="to-iso" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="settlement" mode="change">
+                  <attList>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                     <attDef ident="role" mode="delete"/>
+                     <attDef ident="key" mode="delete"/>
+                     <attDef ident="type" mode="change">
+                        <valList mode="add" type="semi">
+                           <valItem ident="colonie"/>
+                           <valItem ident="metropole"/>
+                           <valItem ident="protectorat"/>
+                        </valList>
+                     </attDef>
+                     <attDef ident="period" mode="delete"/>
+                     <attDef ident="when" mode="delete"/>
+                     <attDef ident="from" mode="delete"/>
+                     <attDef ident="to-iso" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="geogName" mode="change">
+                  <attList>
+                     <attDef ident="period" mode="delete"/>
+                     <attDef ident="when" mode="delete"/>
+                     <attDef ident="from" mode="delete"/>
+                     <attDef ident="to-iso" mode="delete"/>
+                     <attDef ident="instant" mode="delete"/>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                     <attDef ident="role" mode="delete"/>
+                     <attDef ident="key" mode="delete"/>
+                     <attDef ident="ref" mode="delete"/>
+                     <attDef ident="type" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="geogFeat" mode="change">
+                  <attList>
+                     <attDef ident="period" mode="delete"/>
+                     <attDef ident="when" mode="delete"/>
+                     <attDef ident="from" mode="delete"/>
+                     <attDef ident="to-iso" mode="delete"/>
+                     <attDef ident="instant" mode="delete"/>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                     <attDef ident="role" mode="delete"/>
+                     <attDef ident="key" mode="delete"/>
+                     <attDef ident="ref" mode="delete"/>
+                     <attDef ident="type" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="affiliation" mode="change">
+                  <attList>
+                     <attDef ident="type" mode="change">
+                        <valList mode="add" type="closed">
+                           <valItem ident="CorpsDeMetier"/>
+                        </valList>
+                     </attDef>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                     <attDef ident="when" mode="delete"/>
+                     <attDef ident="type" mode="change">
+                        <valList mode="add" type="closed">
+                           <valItem ident="CorpsDeMetier"/>
+                        </valList>
+                     </attDef>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="birth" mode="change">
+                  <attList>
+                     <attDef ident="type" mode="delete"/>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                     <attDef ident="period" mode="delete"/>
+                     <attDef ident="from" mode="delete"/>
+                     <attDef ident="to-iso" mode="delete"/>
+                     <attDef ident="role" mode="delete"/>
+                     <attDef ident="key" mode="delete"/>
+                     <attDef ident="ref" mode="delete"/>
+                     <attDef ident="type" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="death" mode="change">
+                  <attList>
+                     <attDef ident="type" mode="delete"/>
+                     <attDef ident="period" mode="delete"/>
+                     <attDef ident="from" mode="delete"/>
+                     <attDef ident="to-iso" mode="delete"/>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                     <attDef ident="role" mode="delete"/>
+                     <attDef ident="key" mode="delete"/>
+                     <attDef ident="ref" mode="delete"/>
+                     <attDef ident="type" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="listOrg" mode="change">
+                  <attList>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                     <attDef ident="type" mode="delete"/>
+                     <attDef ident="default" mode="change">
+                        <valList mode="add" type="closed">
+                           <valItem ident="false"/>
+                        </valList>
+                     </attDef>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="listPerson" mode="change">
+                  <attList>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                     <attDef ident="type" mode="change">
+                        <valList mode="add" type="closed">
+                           <valItem ident="popLocale"/>
+                           <valItem ident="scientifiques"/>
+                        </valList>
+                     </attDef>
+                     <attDef ident="default" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="nationality" mode="change">
+                  <attList>
+                     <attDef ident="type" mode="delete"/>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                     <attDef ident="period" mode="delete"/>
+                     <attDef ident="when" mode="delete"/>
+                     <attDef ident="from" mode="delete"/>
+                     <attDef ident="to-iso" mode="delete"/>
+                     <attDef ident="role" mode="delete"/>
+                     <attDef ident="key" mode="delete"/>
+                     <attDef ident="ref" mode="delete"/>
+                     <attDef ident="type" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="occupation" mode="change">
+                  <attList>
+                     <attDef ident="type" mode="delete"/>
+                     <attDef ident="scheme" mode="delete"/>
+                     <attDef ident="code" mode="delete"/>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                     <attDef ident="period" mode="delete"/>
+                     <attDef ident="when" mode="delete"/>
+                     <attDef ident="from" mode="delete"/>
+                     <attDef ident="to-iso" mode="delete"/>
+                     <attDef ident="role" mode="delete"/>
+                     <attDef ident="key" mode="delete"/>
+                     <attDef ident="ref" mode="delete"/>
+                     <attDef ident="type" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="org" mode="change">
+                  <attList>
+                     <attDef ident="role" mode="delete"/>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                     <attDef ident="type" mode="change">
+                        <valList mode="add" type="closed">
+                           <valItem ident="Fondation"/>
+                           <valItem ident="Laboratoire"/>
+                           <valItem ident="Mission"/>
+                           <valItem ident="Societe_Savante"/>
+                           <valItem ident="Revue"/>
+                           <valItem ident="Corps_Metier"/>
+                        </valList>
+                     </attDef>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="person" mode="change">
+                  <attList>
+                     <attDef ident="role" mode="delete"/>
+                     <attDef ident="age" mode="delete"/>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="place" mode="change">
+                  <attList>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                     <attDef ident="type" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <classSpec ident="att.datable.iso" type="atts" mode="change">
+                  <attList>
+                     <attDef ident="when-iso" mode="delete"/>
+                     <attDef ident="notBefore-iso" mode="delete"/>
+                     <attDef ident="notAfter-iso" mode="delete"/>
+                     <attDef ident="from-iso" mode="delete"/>
+                  </attList>
+               </classSpec>
+               <!--Checking module dictionaries-->
+               <classRef key="att.lexicographic"/>
+               <classRef key="model.entryLike"/>
+               <classRef key="model.formPart"/>
+               <classRef key="model.gramPart"/>
+               <classRef key="model.lexicalRefinement"/>
+               <classRef key="model.morphLike"/>
+               <classRef key="model.ptrLike.form"/>
+               <classSpec ident="att.lexicographic" type="atts" mode="change">
+                  <attList>
+                     <attDef ident="expand" mode="delete"/>
+                     <attDef ident="split" mode="delete"/>
+                     <attDef ident="value" mode="delete"/>
+                     <attDef ident="location" mode="delete"/>
+                     <attDef ident="mergedIn" mode="delete"/>
+                     <attDef ident="opt" mode="delete"/>
+                  </attList>
+               </classSpec>
+               <!--Checking module tagdocs-->
+               <classRef key="att.combinable"/>
+               <classRef key="att.identified"/>
+               <classRef key="model.contentPart"/>
+               <moduleRef key="tagdocs"
+                  include="att gi classRef moduleRef schemaSpec elementSpec classSpec attList attDef valItem valList"/>
+               <elementSpec ident="att" mode="change">
+                  <attList>
+                     <attDef ident="scheme" mode="delete"/>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="gi" mode="change">
+                  <attList>
+                     <attDef ident="scheme" mode="delete"/>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="classRef" mode="change">
+                  <attList>
+                     <attDef ident="expand" mode="delete"/>
+                     <attDef ident="include" mode="delete"/>
+                     <attDef ident="except" mode="delete"/>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="moduleRef" mode="change">
+                  <attList>
+                     <attDef ident="prefix" mode="delete"/>
+                     <attDef ident="except" mode="delete"/>
+                     <attDef ident="url" mode="delete"/>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="schemaSpec" mode="change">
+                  <attList>
+                     <attDef ident="prefix" mode="delete"/>
+                     <attDef ident="targetLang" mode="delete"/>
+                     <attDef ident="docLang" mode="delete"/>
+                     <attDef ident="defaultExceptions" mode="delete"/>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                     <attDef ident="mode" mode="delete"/>
+                     <attDef ident="status" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="elementSpec" mode="change">
+                  <attList>
+                     <attDef ident="prefix" mode="delete"/>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                     <attDef ident="mode" mode="change">
+                        <valList mode="add" type="closed">
+                           <valItem ident="change"/>
+                        </valList>
+                     </attDef>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="classSpec" mode="change">
+                  <attList>
+                     <attDef ident="type" mode="change">
+                        <valList mode="add" type="closed">
+                           <valItem ident="atts"/>
+                        </valList>
+                     </attDef>
+                     <attDef ident="generate" mode="delete"/>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                     <attDef ident="mode" mode="change">
+                        <valList mode="add" type="closed">
+                           <valItem ident="change"/>
+                        </valList>
+                     </attDef>
+                     <attDef ident="type" mode="change">
+                        <valList mode="add" type="closed">
+                           <valItem ident="atts"/>
+                        </valList>
+                     </attDef>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="attList" mode="change">
+                  <attList>
+                     <attDef ident="org" mode="delete"/>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="attDef" mode="change">
+                  <attList>
+                     <attDef ident="usage" mode="change">
+                        <valList mode="add" type="closed">
+                           <valItem ident="req"/>
+                        </valList>
+                     </attDef>
+                     <attDef ident="ns" mode="delete"/>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                     <attDef ident="mode" mode="change">
+                        <valList mode="add" type="closed">
+                           <valItem ident="add"/>
+                           <valItem ident="change"/>
+                           <valItem ident="delete"/>
+                        </valList>
+                     </attDef>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="valItem" mode="change">
+                  <attList>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                     <attDef ident="mode" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="valList" mode="change">
+                  <attList>
+                     <attDef ident="type" mode="change">
+                        <valList mode="add" type="closed">
+                           <valItem ident="closed"/>
+                        </valList>
+                     </attDef>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                     <attDef ident="mode" mode="change">
+                        <valList mode="add" type="closed">
+                           <valItem ident="add"/>
+                        </valList>
+                     </attDef>
+                  </attList>
+               </elementSpec>
+               <classSpec ident="att.identified" type="atts" mode="change">
+                  <attList>
+                     <attDef ident="predeclare" mode="delete"/>
+                     <attDef ident="module" mode="delete"/>
+                  </attList>
+               </classSpec>
+               <classSpec ident="att.anchoring" type="atts" mode="change">
+                  <attList>
+                     <attDef ident="targetEnd" mode="delete"/>
+                  </attList>
+               </classSpec>
+               <classSpec ident="att.ascribed.directed" type="atts" mode="change">
+                  <attList>
+                     <attDef ident="toWhom" mode="delete"/>
+                  </attList>
+               </classSpec>
+               <classSpec ident="att.dimensions" type="atts" mode="change">
+                  <attList>
+                     <attDef ident="unit" mode="delete"/>
+                     <attDef ident="quantity" mode="delete"/>
+                     <attDef ident="extent" mode="delete"/>
+                     <attDef ident="precision" mode="delete"/>
+                     <attDef ident="scope" mode="delete"/>
+                  </attList>
+               </classSpec>
+               <classSpec ident="att.damaged" type="atts" mode="change">
+                  <attList>
+                     <attDef ident="agent" mode="delete"/>
+                     <attDef ident="degree" mode="delete"/>
+                     <attDef ident="group" mode="delete"/>
+                  </attList>
+               </classSpec>
+               <classSpec ident="att.datable.w3c" type="atts" mode="change">
+                  <attList>
+                     <attDef ident="notBefore" mode="delete"/>
+                     <attDef ident="notAfter" mode="delete"/>
+                     <attDef ident="to" mode="delete"/>
+                  </attList>
+               </classSpec>
+               <classSpec ident="att.datable" type="atts" mode="change">
+                  <attList>
+                     <attDef ident="calendar" mode="delete"/>
+                  </attList>
+               </classSpec>
+               <classSpec ident="att.global.responsibility" type="atts" mode="change">
+                  <attList>
+                     <attDef ident="cert" mode="delete"/>
+                  </attList>
+               </classSpec>
+               <classSpec ident="att.editLike" type="atts" mode="change">
+                  <attList>
+                     <attDef ident="evidence" mode="delete"/>
+                  </attList>
+               </classSpec>
+               <classSpec ident="att.media" type="atts" mode="change">
+                  <attList>
+                     <attDef ident="width" mode="delete"/>
+                     <attDef ident="height" mode="delete"/>
+                     <attDef ident="scale" mode="delete"/>
+                  </attList>
+               </classSpec>
+               <classSpec ident="att.interpLike" type="atts" mode="change">
+                  <attList>
+                     <attDef ident="inst" mode="delete"/>
+                  </attList>
+               </classSpec>
+               <classSpec ident="att.naming" type="atts" mode="change">
+                  <attList>
+                     <attDef ident="nymRef" mode="delete"/>
+                  </attList>
+               </classSpec>
+               <classSpec ident="att.typed" type="atts" mode="change">
+                  <attList>
+                     <attDef ident="subtype" mode="delete"/>
+                  </attList>
+               </classSpec>
+               <classSpec ident="att.pointing" type="atts" mode="change">
+                  <attList>
+                     <attDef ident="targetLang" mode="delete"/>
+                     <attDef ident="evaluate" mode="delete"/>
+                  </attList>
+               </classSpec>
+               <classSpec ident="att.pointing.group" type="atts" mode="change">
+                  <attList>
+                     <attDef ident="domains" mode="delete"/>
+                     <attDef ident="targFunc" mode="delete"/>
+                  </attList>
+               </classSpec>
+               <classSpec ident="att.segLike" type="atts" mode="change">
+                  <attList>
+                     <attDef ident="function" mode="delete"/>
+                  </attList>
+               </classSpec>
+               <classSpec ident="att.timed" type="atts" mode="change">
+                  <attList>
+                     <attDef ident="start" mode="delete"/>
+                     <attDef ident="end" mode="delete"/>
+                  </attList>
+               </classSpec>
+               <classSpec ident="att.transcriptional" type="atts" mode="change">
+                  <attList>
+                     <attDef ident="status" mode="delete"/>
+                     <attDef ident="cause" mode="delete"/>
+                     <attDef ident="seq" mode="delete"/>
+                  </attList>
+               </classSpec>
+               <classSpec ident="att.citing" type="atts" mode="change">
+                  <attList>
+                     <attDef ident="from" mode="delete"/>
+                     <attDef ident="to" mode="delete"/>
+                  </attList>
+               </classSpec>
+               <classSpec ident="att.personal" type="atts" mode="change">
+                  <attList>
+                     <attDef ident="full" mode="delete"/>
+                     <attDef ident="sort" mode="delete"/>
+                  </attList>
+               </classSpec>
+               <!--Checking module core-->
+               <moduleRef key="core"
+                  include="p said quote cit name address street postCode num date abbr ptr ref list item head note pb lb analytic monogr author respStmt resp title imprint publisher biblScope pubPlace bibl biblStruct sp speaker"/>
+               <elementSpec ident="p" mode="change">
+                  <attList>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="part" mode="change">
+                        <valList mode="add" type="closed">
+                           <valItem ident="N"/>
+                        </valList>
+                     </attDef>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="said" mode="change">
+                  <attList>
+                     <attDef ident="aloud" mode="delete"/>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="quote" mode="change">
+                  <attList>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                     <attDef ident="type" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="cit" mode="change">
+                  <attList>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                     <attDef ident="type" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="name" mode="change">
+                  <attList>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                     <attDef ident="role" mode="delete"/>
+                     <attDef ident="key" mode="delete"/>
+                     <attDef ident="ref" mode="delete"/>
+                     <attDef ident="period" mode="delete"/>
+                     <attDef ident="when" mode="delete"/>
+                     <attDef ident="from" mode="delete"/>
+                     <attDef ident="to-iso" mode="delete"/>
+                     <attDef ident="instant" mode="delete"/>
+                     <attDef ident="type" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="address" mode="change">
+                  <attList>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="street" mode="change">
+                  <attList>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="postCode" mode="change">
+                  <attList>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="num" mode="change">
+                  <attList>
+                     <attDef ident="type" mode="delete"/>
+                     <attDef ident="value" mode="delete"/>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                     <attDef ident="type" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="date" mode="change">
+                  <attList>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                     <attDef ident="key" mode="delete"/>
+                     <attDef ident="ref" mode="delete"/>
+                     <attDef ident="period" mode="delete"/>
+                     <attDef ident="from" mode="delete"/>
+                     <attDef ident="to-iso" mode="delete"/>
+                     <attDef ident="type" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="abbr" mode="change">
+                  <attList>
+                     <attDef ident="type" mode="delete"/>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                     <attDef ident="type" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="ptr" mode="change">
+                  <attList>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="target" mode="delete"/>
+                     <attDef ident="type" mode="change">
+                        <valList mode="add" type="closed">
+                           <valItem ident="footref"/>
+                           <valItem ident="endref"/>
+                        </valList>
+                     </attDef>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="ref" mode="change">
+                  <attList>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                     <attDef ident="type" mode="change">
+                        <valList mode="add" type="closed">
+                           <valItem ident="uriref"/>
+                           <valItem ident="viafref"/>
+                        </valList>
+                     </attDef>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="list" mode="change">
+                  <attList>
+                     <attDef ident="type" mode="change">
+                        <valList mode="add" type="closed">
+                           <valItem ident="affiliation-SPE"/>
+                           <valItem ident="argumentation"/>
+                           <valItem ident="autres_societes"/>
+                           <valItem ident="carriere"/>
+                           <valItem ident="distinctions"/>
+                        </valList>
+                     </attDef>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                     <attDef ident="type" mode="change">
+                        <valList mode="add" type="closed">
+                           <valItem ident="affiliation-SPE"/>
+                           <valItem ident="argumentation"/>
+                           <valItem ident="autres_societes"/>
+                           <valItem ident="carriere"/>
+                           <valItem ident="distinctions"/>
+                        </valList>
+                     </attDef>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="item" mode="change">
+                  <attList>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="head" mode="change">
+                  <attList>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                     <attDef ident="type" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="note" mode="change">
+                  <attList>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                     <attDef ident="target" mode="delete"/>
+                     <attDef ident="type" mode="change">
+                        <valList mode="add" type="closed">
+                           <valItem ident="footnote"/>
+                           <valItem ident="endnote"/>
+                        </valList>
+                     </attDef>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="pb" mode="change">
+                  <attList>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                     <attDef ident="type" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="lb" mode="change">
+                  <attList>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                     <attDef ident="type" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="analytic" mode="change">
+                  <attList>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="monogr" mode="change">
+                  <attList>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="author" mode="change">
+                  <attList>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                     <attDef ident="role" mode="delete"/>
+                     <attDef ident="ref" mode="delete"/>
+                     <attDef ident="period" mode="delete"/>
+                     <attDef ident="when" mode="delete"/>
+                     <attDef ident="from" mode="delete"/>
+                     <attDef ident="to-iso" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="respStmt" mode="change">
+                  <attList>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                     <attDef ident="key" mode="delete"/>
+                     <attDef ident="ref" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="resp" mode="change">
+                  <attList>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                     <attDef ident="key" mode="delete"/>
+                     <attDef ident="ref" mode="delete"/>
+                     <attDef ident="period" mode="delete"/>
+                     <attDef ident="when" mode="delete"/>
+                     <attDef ident="from" mode="delete"/>
+                     <attDef ident="to-iso" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="title" mode="change">
+                  <attList>
+                     <attDef ident="level" mode="delete"/>
+                     <attDef ident="type" mode="change">
+                        <valList mode="add" type="closed">
+                           <valItem ident="article"/>
+                           <valItem ident="revue"/>
+                           <valItem ident="short"/>
+                        </valList>
+                     </attDef>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                     <attDef ident="type" mode="change">
+                        <valList mode="add" type="closed">
+                           <valItem ident="article"/>
+                           <valItem ident="revue"/>
+                           <valItem ident="ouvrage"/>
+                           <valItem ident="chapitre"/>
+                           <valItem ident="short"/>
+                        </valList>
+                     </attDef>
+                     <attDef ident="key" mode="delete"/>
+                     <attDef ident="period" mode="delete"/>
+                     <attDef ident="when" mode="delete"/>
+                     <attDef ident="from" mode="delete"/>
+                     <attDef ident="to-iso" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="imprint" mode="change">
+                  <attList>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="publisher" mode="change">
+                  <attList>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                     <attDef ident="key" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="biblScope" mode="change">
+                  <attList>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="pubPlace" mode="change">
+                  <attList>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                     <attDef ident="role" mode="delete"/>
+                     <attDef ident="key" mode="delete"/>
+                     <attDef ident="ref" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="bibl" mode="change">
+                  <attList>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                     <attDef ident="default" mode="delete">
+                        <valList mode="add" type="closed">
+                           <valItem ident="false"/>
+                        </valList>
+                     </attDef>
+                     <attDef ident="type" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="biblStruct" mode="change">
+                  <attList>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                     <attDef ident="default" mode="delete"/>
+                     <attDef ident="type" mode="delete"/>
+                     <attDef ident="status" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="sp" mode="change">
+                  <attList>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="speaker" mode="change">
+                  <attList>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <!--Checking module figures-->
+               <!--Checking module header-->
+               <moduleRef key="header"
+                  include="teiHeader fileDesc titleStmt publicationStmt distributor availability sourceDesc encodingDesc projectDesc editorialDecl refsDecl profileDesc abstract creation langUsage language"/>
+               <elementSpec ident="teiHeader" mode="change">
+                  <attList>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="fileDesc" mode="change">
+                  <attList>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="titleStmt" mode="change">
+                  <attList>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="publicationStmt" mode="change">
+                  <attList>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="distributor" mode="change">
+                  <attList>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                     <attDef ident="key" mode="delete"/>
+                     <attDef ident="ref" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="availability" mode="change">
+                  <attList>
+                     <attDef ident="status" mode="change">
+                        <valList mode="add" type="closed">
+                           <valItem ident="free"/>
+                        </valList>
+                     </attDef>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                     <attDef ident="default" mode="change">
+                        <valList mode="add" type="closed">
+                           <valItem ident="false"/>
+                        </valList>
+                     </attDef>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="sourceDesc" mode="change">
+                  <attList>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                     <attDef ident="default" mode="change">
+                        <valList mode="add" type="closed">
+                           <valItem ident="false"/>
+                        </valList>
+                     </attDef>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="encodingDesc" mode="change">
+                  <attList>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="projectDesc" mode="change">
+                  <attList>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                     <attDef ident="default" mode="change">
+                        <valList mode="add" type="closed">
+                           <valItem ident="false"/>
+                        </valList>
+                     </attDef>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="editorialDecl" mode="change">
+                  <attList>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                     <attDef ident="default" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="refsDecl" mode="change">
+                  <attList>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                     <attDef ident="default" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="profileDesc" mode="change">
+                  <attList>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="abstract" mode="change">
+                  <attList>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="creation" mode="change">
+                  <attList>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                     <attDef ident="period" mode="delete"/>
+                     <attDef ident="when" mode="delete"/>
+                     <attDef ident="from" mode="delete"/>
+                     <attDef ident="to-iso" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="langUsage" mode="change">
+                  <attList>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                     <attDef ident="default" mode="change">
+                        <valList mode="add" type="closed">
+                           <valItem ident="false"/>
+                        </valList>
+                     </attDef>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="language" mode="change">
+                  <attList>
+                     <attDef ident="usage" mode="delete"/>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <!--Checking module gaiji-->
+               <!--Checking module verse-->
+               <!--Checking module transcr-->
+               <classRef key="att.global.facs"/>
+               <!--Checking module linking-->
+               <moduleRef key="linking" include="seg standOff"/>
+               <elementSpec ident="seg" mode="change">
+                  <attList>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                     <attDef ident="part" mode="delete"/>
+                     <attDef ident="type" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="standOff" mode="change">
+                  <attList>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                     <attDef ident="type" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <!--Checking module analysis-->
+               <classRef key="att.global.analytic"/>
+               <classRef key="att.linguistic"/>
+               <moduleRef key="analysis" include="span interp interpGrp"/>
+               <elementSpec ident="span" mode="change">
+                  <attList>
+                     <attDef ident="type" mode="delete"/>
+                     <attDef ident="from" mode="delete"/>
+                     <attDef ident="to" mode="delete"/>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                     <attDef ident="type" mode="delete"/>
+                     <attDef ident="target" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="interp" mode="change">
+                  <attList>
+                     <attDef ident="type" mode="delete"/>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                     <attDef ident="type" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="interpGrp" mode="change">
+                  <attList>
+                     <attDef ident="type" mode="delete"/>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                     <attDef ident="type" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <classSpec ident="att.linguistic" type="atts" mode="change">
+                  <attList>
+                     <attDef ident="lemma" mode="delete"/>
+                     <attDef ident="lemmaRef" mode="delete"/>
+                     <attDef ident="pos" mode="delete"/>
+                     <attDef ident="msd" mode="delete"/>
+                     <attDef ident="join" mode="delete"/>
+                  </attList>
+               </classSpec>
+               <!--Checking module textstructure-->
+               <moduleRef key="textstructure" include="TEI text body div1 div2 div3 div4"/>
+               <elementSpec ident="TEI" mode="change">
+                  <attList>
+                     <attDef ident="version" mode="delete"/>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                     <attDef ident="type" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="text" mode="change">
+                  <attList>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                     <attDef ident="type" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="body" mode="change">
+                  <attList>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="div1" mode="change">
+                  <attList>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                     <attDef ident="org" mode="change">
+                        <valList mode="add" type="closed">
+                           <valItem ident="uniform"/>
+                        </valList>
+                     </attDef>
+                     <attDef ident="sample" mode="change">
+                        <valList mode="add" type="closed">
+                           <valItem ident="complete"/>
+                        </valList>
+                     </attDef>
+                     <attDef ident="part" mode="change">
+                        <valList mode="add" type="closed">
+                           <valItem ident="N"/>
+                        </valList>
+                     </attDef>
+                     <attDef ident="type" mode="change">
+                        <valList mode="add" type="closed">
+                           <valItem ident="BSPE"/>
+                           <valItem ident="AHMC"/>
+                        </valList>
+                     </attDef>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="div2" mode="change">
+                  <attList>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                     <attDef ident="org" mode="change">
+                        <valList mode="add" type="closed">
+                           <valItem ident="uniform"/>
+                        </valList>
+                     </attDef>
+                     <attDef ident="sample" mode="delete"/>
+                     <attDef ident="part" mode="delete"/>
+                     <attDef ident="type" mode="change">
+                        <valList mode="add" type="closed">
+                           <valItem ident="annee_volume"/>
+                        </valList>
+                     </attDef>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="div3" mode="change">
+                  <attList>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                     <attDef ident="org" mode="change">
+                        <valList mode="add" type="closed">
+                           <valItem ident="uniform"/>
+                        </valList>
+                     </attDef>
+                     <attDef ident="sample" mode="change">
+                        <valList mode="add" type="closed">
+                           <valItem ident="complete"/>
+                        </valList>
+                     </attDef>
+                     <attDef ident="part" mode="change">
+                        <valList mode="add" type="closed">
+                           <valItem ident="SPE"/>
+                           <valItem ident="SMCOA"/>
+                           <valItem ident="SSMM"/>
+                        </valList>
+                     </attDef>
+                     <attDef ident="type" mode="delete"/>
+                     <attDef ident="article_id" mode="add"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="div4" mode="change">
+                  <attList>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                     <attDef ident="org" mode="delete"/>
+                     <attDef ident="sample" mode="delete"/>
+                     <attDef ident="part" mode="delete"/>
+                     <attDef ident="type" mode="change">
+                        <valList mode="add" type="semi">
+                           <valItem ident="Communication"/>
+                           <valItem ident="Memoire"/>
+                           <valItem ident="Discussion"/>
+                        </valList>
+                     </attDef>
+                  </attList>
+               </elementSpec>
+               <!--Checking module corpus-->
+               <moduleRef key="corpus" include="particDesc settingDesc"/>
+               <elementSpec ident="particDesc" mode="change">
+                  <attList>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                     <attDef ident="default" mode="change">
+                        <valList mode="add" type="closed">
+                           <valItem ident="false"/>
+                        </valList>
+                     </attDef>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="settingDesc" mode="change">
+                  <attList>
+                     <attDef ident="ana" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                     <attDef ident="default" mode="change">
+                        <valList mode="add" type="closed">
+                           <valItem ident="false"/>
+                        </valList>
+                     </attDef>
+                  </attList>
+               </elementSpec>
+            </schemaSpec>
+         </div1>
+      </body>
+   </text>
+</TEI>
